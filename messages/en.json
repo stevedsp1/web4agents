@@ -1,0 +1,193 @@
+{
+  "nav": {
+    "glossary": "Glossary",
+    "blog": "Blog",
+    "docs": "Docs",
+    "audit": "Audit",
+    "contribute": "Contribute",
+    "home": "Home"
+  },
+  "home": {
+    "title": "Prepare the Web for AI Agents",
+    "subtitle": "The web is entering a new era: AI agents are becoming first-class users of the internet. We help you get ready with best practices and documentation for an agent-ready web.",
+    "cta": "Get GEO updates and best practices in your inbox.",
+    "ctaPrepare": "Get started",
+    "ctaAudit": "Request an audit",
+    "agentReadyTitle": "What we mean by agent-ready",
+    "agentReadyIntro": "Generative Engine Optimization (GEO) means making your site readable, actionable, and secure for autonomous agents. Readable: structured data and clear semantics so agents extract facts without guessing. Actionable: forms, APIs, and clear CTAs so they can complete tasks. Secure: boundaries via robots.txt, llms.txt, and Content-Signal so you stay in control.",
+    "agentReadyCta": "See the practices",
+    "geoReadability": "Readability",
+    "geoReadabilityDesc": "Structured data, clear semantics, and machine-parseable formats so agents extract facts without guessing.",
+    "geoActionability": "Actionability",
+    "geoActionabilityDesc": "Clear CTAs, forms, and APIs so agents can complete tasks — not just read content.",
+    "geoSecurity": "Security",
+    "geoSecurityDesc": "Expose what agents need without leaking sensitive data. Set boundaries via robots.txt, llms.txt, and rate limiting.",
+    "latestGlossary": "From the glossary",
+    "latestGlossaryIntro": "Concepts, tools, and standards for the agentic web.",
+    "latestBlog": "Latest articles",
+    "requestAudit": "Request an audit",
+    "requestAuditSub": "We'll analyze your site's readiness for AI agents and deliver actionable recommendations.",
+    "stayUpdated": "Stay updated"
+  },
+  "footer": {
+    "about": "About",
+    "contact": "Contact",
+    "legal": "Legal",
+    "privacy": "Privacy",
+    "newsletter": "Stay updated",
+    "social": "Follow us",
+    "tagline": "Prepare the web for AI agents. Best practices and documentation for the agentic web.",
+    "sectionLinks": "Links",
+    "sectionLegal": "Legal"
+  },
+  "common": {
+    "skipToContent": "Skip to main content",
+    "copyright": "All rights reserved.",
+    "copyLink": "Copy link",
+    "linkCopied": "Link copied!",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "notFoundTitle": "Not found"
+  },
+  "contactPage": {
+    "intro": "Send us a message and we'll get back to you as soon as possible.",
+    "reachUs": "You can also reach us at"
+  },
+  "glossary": {
+    "title": "Glossary",
+    "termsCount": "{count, plural, one {# term} other {# terms}}",
+    "searchPlaceholder": "Search terms…",
+    "noResults": "No terms found.",
+    "types": { "concept": "Concept", "tool": "Tool", "actor": "Actor", "standard": "Standard" },
+    "allTypes": "All"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "News, tools, case studies and guides for the agentic web.",
+    "published": "Published",
+    "updated": "Updated",
+    "readingTime": "{count} min read",
+    "author": "By {author}",
+    "onThisPage": "On this page"
+  },
+  "newsletter": {
+    "placeholder": "Your email",
+    "submit": "Subscribe",
+    "success": "Received. We've got it.",
+    "error": "Something went wrong. Please try again."
+  },
+  "contactForm": {
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "submit": "Send",
+    "success": "Received. We've got it.",
+    "error": "Failed to send. Please try again."
+  },
+  "auditForm": {
+    "url": "Website URL",
+    "email": "Your email",
+    "message": "Additional context (optional)",
+    "submit": "Request audit",
+    "success": "Received. We've got it.",
+    "error": "Request failed. Please try again."
+  },
+  "docs": {
+    "title": "Documentation",
+    "intro": "Everything you need to make your website ready for AI agents. Structured data, crawlers, files, semantics, and more.",
+    "homeDescription": "Browse the categories below or use the sidebar to jump to a specific topic.",
+    "overview": "Overview",
+    "searchPlaceholder": "Search docs…",
+    "noResults": "No results found.",
+    "comingSoon": "Coming soon.",
+    "menuOpen": "Menu",
+    "menuClose": "Close menu",
+    "categories": {
+      "gettingStarted": "Getting Started",
+      "crawlers": "Indexing",
+      "technicalSeo": "Technical SEO",
+      "structuredData": "Structured Data",
+      "agentConfig": "Agent Configuration",
+      "contentMarkup": "Content",
+      "protocols": "Agent Protocols",
+      "domain": "Hosting",
+      "analytics": "Analytics",
+      "security": "Security"
+    },
+    "onThisPage": "On this page",
+    "apiTitle": "Public API",
+    "apiIntro": "JSON APIs for glossary and blog content. Intended for AI agents and programmatic access.",
+    "baseUrl": "Base URL",
+    "glossaryList": "Glossary (list)",
+    "glossaryTerm": "Glossary (single term)",
+    "blogList": "Blog (list)",
+    "blogPost": "Blog (single post)",
+    "queryLocale": "Query: locale (optional, default: en)",
+    "queryType": "Query: type (optional, filter by concept|tool|actor|standard)",
+    "rateLimit": "Rate limit",
+    "rateLimitValue": "60 requests per minute per IP for GET.",
+    "cache": "Cache",
+    "cacheValue": "Cache-Control: public, s-maxage=3600, stale-while-revalidate=86400."
+  },
+  "seo": {
+    "defaultTitle": "Web4Agents — Prepare the Web for AI Agents",
+    "defaultDescription": "Prepare the web for AI agents. Practices, glossary, and documentation for the agentic web."
+  },
+  "legalPage": {
+    "publisher": "Publisher",
+    "publisherContent": "Cyber Express — SIRET: 912 975 356 00029 — France. For any legal inquiry, please use the contact form or the email address provided on the contact page.",
+    "hosting": "Hosting",
+    "hostingContent": "Website: Vercel Inc. (San Francisco, USA). Database: Firebase (Google Cloud Platform). Domain name: OVH (Roubaix, France).",
+    "intellectualProperty": "Intellectual property",
+    "intellectualPropertyContent": "Content on this site is provided for informational purposes. Trademarks and logos belong to their respective owners.",
+    "privacyLink": "Privacy policy"
+  },
+  "privacyPage": {
+    "intro": "We respect your privacy. This policy describes how we handle your data.",
+    "dataCollected": "Data we collect",
+    "dataCollectedContent": "We collect the data you submit via forms (newsletter, contact, audit requests): email address, optional message content, and website URL for audit requests. We also use Google Analytics 4 for anonymized usage statistics.",
+    "purpose": "Purpose",
+    "purposeContent": "Data is used to respond to your requests, send newsletters if you subscribed, and improve our site and services.",
+    "retention": "Retention",
+    "retentionContent": "We retain form submissions and analytics data for as long as necessary to fulfill the purposes above, or as required by law.",
+    "rights": "Your rights",
+    "rightsContent": "You have the right to access, rectify, or delete your data. Contact us via the contact page to exercise these rights.",
+    "cookies": "Cookies and GA4",
+    "cookiesContent": "We use Google Analytics 4 with anonymized IP. You can disable cookies in your browser. No advertising cookies are used.",
+    "dpo": "Contact",
+    "dpoContent": "For privacy requests or to contact our data protection contact, use the contact form."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "message": "The page you are looking for does not exist or has been moved.",
+    "home": "Home",
+    "glossary": "Glossary",
+    "blog": "Blog"
+  },
+  "contributePage": {
+    "title": "Contribute",
+    "intro": "Web4Agents is a community-driven reference. Suggest a new glossary term, a doc topic, or share a case study. Use the form below and we'll get back to you.",
+    "sponsor": "The project is also open to sponsors.",
+    "introForm": "Tell us how you'd like to contribute.",
+    "reachUs": "You can also reach us at"
+  },
+  "auditPage": {
+    "heroBadge": "GEO Audit",
+    "heroTitle": "Is your website ready for AI agents?",
+    "heroSubtitle": "We analyze your site's structure, data, and content against GEO best practices — and deliver actionable recommendations so your content can be discovered, cited, and used by agents.",
+    "formTitle": "Request your audit",
+    "ctaDocs": "In the meantime, explore our documentation and the quick-start checklist to self-assess.",
+    "valueTitle": "Why a GEO audit?",
+    "valueContent": "Generative Engine Optimization (GEO) is about making your site readable, actionable, and secure for autonomous AI agents. A GEO audit evaluates how well you're set up: structured data and semantics, agent-facing files (robots.txt, llms.txt, Content-Signal), performance, and security — so you get a clear roadmap aligned with our reference documentation.",
+    "whatWeCover": "What we cover",
+    "whatWeCoverContent": "Our audit follows the same pillars as our docs: crawlability (robots.txt, sitemap.xml, llms.txt), structured data (Schema.org, JSON-LD, Open Graph), semantic HTML and actionable DOM, security (headers, rate limiting, data exposure), performance and Core Web Vitals, and accessibility. We reference our checklist and documentation in the report.",
+    "faqTitle": "Frequently asked questions",
+    "faq1Q": "How long does an audit take?",
+    "faq1A": "We typically respond within a few business days and deliver the full report within one to two weeks, depending on scope.",
+    "faq2Q": "What do I need to provide?",
+    "faq2A": "Just your website URL and, optionally, context about your goals. We handle the rest.",
+    "faq3Q": "Is there a cost?",
+    "faq3A": "Contact us for pricing. We offer tailored options depending on site size and depth of analysis.",
+    "metaDescription": "Request a GEO audit. We analyze your site's readiness for AI agents and deliver actionable recommendations aligned with our documentation."
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "nav": {
+    "glossary": "Glossaire",
+    "blog": "Blog",
+    "docs": "Docs",
+    "audit": "Audit",
+    "contribute": "Contribuer",
+    "home": "Accueil"
+  },
+  "home": {
+    "title": "Préparer le web pour les agents IA",
+    "subtitle": "Le web entre dans une nouvelle ère : les agents IA deviennent des utilisateurs à part entière d’internet. Nous vous aidons à vous préparer avec les bonnes pratiques et la documentation pour un web prêt pour les agents.",
+    "cta": "Recevez les actualités GEO et les bonnes pratiques par email.",
+    "ctaPrepare": "Commencer",
+    "ctaAudit": "Demander un audit",
+    "agentReadyTitle": "Comment être prêt pour l'Agentic Web",
+    "agentReadyIntro": "La Generative Engine Optimization (GEO) consiste à rendre votre site lisible, actionnable et sécurisé pour les agents IA autonomes. Lisible : données structurées et sémantique claire. Actionnable : formulaires, APIs et CTA clairs. Sécurisé : robots.txt, llms.txt et Content-Signal pour garder le contrôle.",
+    "agentReadyCta": "Voir les pratiques",
+    "geoReadability": "Lisibilité",
+    "geoReadabilityDesc": "Données structurées, sémantique claire et formats parsables par les machines.",
+    "geoActionability": "Actionnabilité",
+    "geoActionabilityDesc": "CTA, formulaires et APIs clairs pour que les agents puissent accomplir des tâches.",
+    "geoSecurity": "Sécurité",
+    "geoSecurityDesc": "Exposez ce dont les agents ont besoin sans fuite de données sensibles. Définissez les limites via robots.txt, llms.txt et le rate limiting.",
+    "latestGlossary": "Glossaire",
+    "latestGlossaryIntro": "Concepts, outils et standards pour le web agentique.",
+    "latestBlog": "Derniers articles",
+    "requestAudit": "Demander un audit",
+    "requestAuditSub": "Nous analysons la préparation de votre site pour les agents IA et fournissons des recommandations actionnables.",
+    "stayUpdated": "Restez informés"
+  },
+  "footer": {
+    "about": "À propos",
+    "contact": "Contact",
+    "legal": "Mentions légales",
+    "privacy": "Confidentialité",
+    "newsletter": "Restez informés",
+    "social": "Suivez-nous",
+    "tagline": "Préparer le web pour les agents IA. Bonnes pratiques et documentation pour un web prêt pour les agents.",
+    "sectionLinks": "Liens",
+    "sectionLegal": "Juridique"
+  },
+  "common": {
+    "skipToContent": "Aller au contenu principal",
+    "copyright": "Tous droits réservés.",
+    "copyLink": "Copier le lien",
+    "linkCopied": "Lien copié !",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "notFoundTitle": "Page introuvable"
+  },
+  "contactPage": {
+    "intro": "Envoyez-nous un message et nous vous répondrons dans les plus brefs délais.",
+    "reachUs": "Vous pouvez aussi nous contacter à"
+  },
+  "glossary": {
+    "title": "Glossaire",
+    "termsCount": "{count, plural, one {# terme} other {# termes}}",
+    "searchPlaceholder": "Rechercher…",
+    "noResults": "Aucun terme trouvé.",
+    "types": { "concept": "Concept", "tool": "Outil", "actor": "Acteur", "standard": "Standard" },
+    "allTypes": "Tous"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Actualités, outils, études de cas et guides pour le web agentique.",
+    "published": "Publié",
+    "updated": "Mis à jour",
+    "readingTime": "{count} min de lecture",
+    "author": "Par {author}",
+    "onThisPage": "Sur cette page"
+  },
+  "newsletter": {
+    "placeholder": "Votre email",
+    "submit": "S'abonner",
+    "success": "C'est bien pris en compte.",
+    "error": "Une erreur s'est produite. Réessayez."
+  },
+  "contactForm": {
+    "email": "Email",
+    "subject": "Sujet",
+    "message": "Message",
+    "submit": "Envoyer",
+    "success": "C'est bien pris en compte.",
+    "error": "Échec de l'envoi. Réessayez."
+  },
+  "auditForm": {
+    "url": "URL du site",
+    "email": "Votre email",
+    "message": "Contexte supplémentaire (optionnel)",
+    "submit": "Demander l'audit",
+    "success": "C'est bien pris en compte.",
+    "error": "Échec de la demande. Réessayez."
+  },
+  "docs": {
+    "title": "Documentation",
+    "intro": "Tout pour rendre votre site prêt pour les agents IA.",
+    "homeDescription": "Parcourez les catégories ou utilisez la barre latérale.",
+    "overview": "Vue d'ensemble",
+    "searchPlaceholder": "Rechercher dans la doc…",
+    "noResults": "Aucun résultat.",
+    "comingSoon": "Bientôt disponible.",
+    "menuOpen": "Menu",
+    "menuClose": "Fermer le menu",
+    "categories": {
+      "gettingStarted": "Démarrage",
+      "crawlers": "Indexation",
+      "technicalSeo": "SEO technique",
+      "structuredData": "Données structurées",
+      "agentConfig": "Configuration des agents",
+      "contentMarkup": "Contenu",
+      "protocols": "Protocoles des agents",
+      "domain": "Hébergement",
+      "analytics": "Analytics",
+      "security": "Sécurité"
+    },
+    "onThisPage": "Sur cette page",
+    "apiTitle": "API publique",
+    "apiIntro": "API JSON pour le glossaire et le blog. Pour les agents IA et l'accès programmatique.",
+    "baseUrl": "URL de base",
+    "glossaryList": "Glossaire (liste)",
+    "glossaryTerm": "Glossaire (terme)",
+    "blogList": "Blog (liste)",
+    "blogPost": "Blog (article)",
+    "queryLocale": "Paramètre : locale (optionnel, défaut : en)",
+    "queryType": "Paramètre : type (optionnel)",
+    "rateLimit": "Rate limit",
+    "rateLimitValue": "60 requêtes par minute par IP pour GET.",
+    "cache": "Cache",
+    "cacheValue": "Cache-Control: public, s-maxage=3600, stale-while-revalidate=86400."
+  },
+  "seo": {
+    "defaultTitle": "Web4Agents — Préparer le web pour les agents IA",
+    "defaultDescription": "Préparer le web pour les agents IA. Bonnes pratiques et documentation pour le web agentique."
+  },
+  "legalPage": {
+    "publisher": "Éditeur",
+    "publisherContent": "Cyber Express – SIRET : 912 975 356 00029 – France. Pour toute question juridique, utilisez le formulaire de contact ou l'adresse email indiquée sur la page contact.",
+    "hosting": "Hébergement",
+    "hostingContent": "Site web : Vercel Inc. (San Francisco, USA). Base de données : Firebase (Google Cloud Platform). Nom de domaine : OVH (Roubaix, France).",
+    "intellectualProperty": "Propriété intellectuelle",
+    "intellectualPropertyContent": "Le contenu de ce site est fourni à titre informatif. Les marques et logos appartiennent à leurs propriétaires respectifs.",
+    "privacyLink": "Politique de confidentialité"
+  },
+  "privacyPage": {
+    "intro": "Nous respectons votre vie privée. Cette politique décrit comment nous traitons vos données.",
+    "dataCollected": "Données collectées",
+    "dataCollectedContent": "Nous collectons les données que vous soumettez via les formulaires (newsletter, contact, demandes d'audit) : email, message optionnel, URL du site pour les audits. Nous utilisons également Google Analytics 4 pour des statistiques d'usage anonymisées.",
+    "purpose": "Finalité",
+    "purposeContent": "Les données servent à répondre à vos demandes, envoyer la newsletter si vous êtes inscrit, et améliorer notre site et nos services.",
+    "retention": "Conservation",
+    "retentionContent": "Nous conservons les données le temps nécessaire à ces finalités ou selon les obligations légales.",
+    "rights": "Vos droits",
+    "rightsContent": "Vous pouvez accéder, rectifier ou supprimer vos données. Contactez-nous via la page contact.",
+    "cookies": "Cookies et GA4",
+    "cookiesContent": "Nous utilisons Google Analytics 4 avec IP anonymisée. Vous pouvez désactiver les cookies dans votre navigateur. Aucun cookie publicitaire.",
+    "dpo": "Contact",
+    "dpoContent": "Pour toute demande relative à la vie privée, utilisez le formulaire de contact."
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "message": "La page demandée n'existe pas ou a été déplacée.",
+    "home": "Accueil",
+    "glossary": "Glossaire",
+    "blog": "Blog"
+  },
+  "contributePage": {
+    "title": "Contribuer",
+    "intro": "Web4Agents est une référence collaborative. Proposez un terme de glossaire, un sujet de doc ou partagez une étude de cas. Utilisez le formulaire ci-dessous.",
+    "sponsor": "Le projet est également ouvert au sponsoring.",
+    "introForm": "Dites-nous comment vous souhaitez contribuer.",
+    "reachUs": "Vous pouvez aussi nous contacter à"
+  },
+  "auditPage": {
+    "heroBadge": "Audit GEO",
+    "heroTitle": "Votre site est-il prêt pour les agents IA ?",
+    "heroSubtitle": "Nous analysons la structure, les données et le contenu de votre site au regard des bonnes pratiques GEO — et fournissons des recommandations actionnables pour que votre contenu soit découvert, cité et utilisé par les agents.",
+    "formTitle": "Demander votre audit",
+    "ctaDocs": "En attendant, consultez notre documentation et la checklist de démarrage pour une auto-évaluation.",
+    "valueTitle": "Pourquoi un audit GEO ?",
+    "valueContent": "La Generative Engine Optimization (GEO) consiste à rendre votre site lisible, actionnable et sécurisé pour les agents IA autonomes. Un audit GEO évalue votre configuration : données structurées, fichiers pour les agents (robots.txt, llms.txt, Content-Signal), performance et sécurité — pour un plan d'action aligné sur notre documentation de référence.",
+    "whatWeCover": "Ce que nous couvrons",
+    "whatWeCoverContent": "Notre audit suit les mêmes piliers que nos docs : crawlabilité (robots.txt, sitemap.xml, llms.txt), données structurées (Schema.org, JSON-LD, Open Graph), HTML sémantique et DOM actionnable, sécurité (en-têtes, rate limiting), performance et Core Web Vitals, accessibilité. Nous nous appuyons sur notre checklist et notre documentation dans le rapport.",
+    "faqTitle": "Questions fréquentes",
+    "faq1Q": "Combien de temps prend un audit ?",
+    "faq1A": "Nous répondons généralement sous quelques jours ouvrés et livrons le rapport complet sous une à deux semaines selon le périmètre.",
+    "faq2Q": "Que dois-je fournir ?",
+    "faq2A": "L'URL de votre site et, optionnellement, le contexte de vos objectifs. Nous nous occupons du reste.",
+    "faq3Q": "Quel est le coût ?",
+    "faq3A": "Contactez-nous pour les tarifs. Nous proposons des options selon la taille du site et la profondeur de l'analyse.",
+    "metaDescription": "Demandez un audit GEO. Nous analysons la préparation de votre site pour les agents IA et fournissons des recommandations actionnables alignées sur notre documentation."
+  }
+}

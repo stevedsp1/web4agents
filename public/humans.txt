@@ -1,0 +1,13 @@
+/* humans.txt */
+
+/* TEAM */
+Author: Web4Agents Team
+Contact: hello@web4agents.org
+Site: web4agents.org
+
+/* SITE */
+Last update: 2026
+Language: English, French
+Standards: HTML5, CSS3, JSON-LD, Markdown
+Components: Next.js, Tailwind CSS
+Software: Vercel
