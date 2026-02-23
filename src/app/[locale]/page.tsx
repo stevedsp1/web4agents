@@ -45,8 +45,8 @@ export default async function HomePage({ params }: Props) {
 
   const baseUrl = getBaseUrl();
   const jsonLd = [
-    websiteJsonLd(baseUrl, "Web4Agents", "Prepare the web for AI agents. Practices, glossary, and documentation for the agentic web."),
-    organizationJsonLd(baseUrl, "Web4Agents", "Prepare the web for AI agents. Practices, glossary, and documentation for the agentic web."),
+    websiteJsonLd(baseUrl, "Web4Agents", "Prepare the web for AI agents. Best practices and documentation for the agentic web."),
+    organizationJsonLd(baseUrl, "Web4Agents", "Prepare the web for AI agents. Best practices and documentation for the agentic web."),
   ];
 
   return (
