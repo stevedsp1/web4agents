@@ -52,6 +52,8 @@ Précisez l'usage autorisé de votre contenu (entraînement, recherche, entrée 
 
 Utilisez des liens ou champs cachés dans votre HTML que seul un bot interagirait. Si un bot déclenche le honeypot, vous pouvez bloquer son IP en toute sécurité.
 
+Cloudflare propose une fonctionnalité dédiée : **[AI Labyrinth](https://developers.cloudflare.com/bots/additional-configurations/ai-labyrinth/)**. Elle ajoute automatiquement des liens invisibles avec des balises `nofollow` sur vos pages. Les crawlers abusifs (qui ignorent `robots.txt`) se retrouvent piégés dans un labyrinthe de liens sans fin, tandis que les bots légitimes — qui respectent les instructions de non-crawl — les ignorent sans problème. Les informations des bots piégés sont partagées entre tous les clients Cloudflare. Cette option s'active depuis **Security → Bots → Configure Bot Fight Mode → AI Labyrinth** dans le dashboard Cloudflare, sans aucune modification de code.
+
 ## L'équilibre GEO
 
 Le cœur de la GEO est de rendre votre site accessible aux agents IA. Une protection agressive (CAPTCHAs sur toutes les pages, blocage de tous les bots) brisera complètement vos efforts GEO. L'objectif est de laisser les « bons bots » entrer sans friction tout en tenant les « mauvais bots » à l'écart.

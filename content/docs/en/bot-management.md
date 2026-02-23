@@ -29,5 +29,7 @@ Implement rate limiting at your CDN or WAF level (e.g., Cloudflare) to prevent a
 ### 4. Honeypots
 Use hidden links or fields in your HTML (honeypots) that only a bot would interact with. If a bot triggers the honeypot, you can safely block its IP.
 
+Cloudflare offers a dedicated feature for this: **[AI Labyrinth](https://developers.cloudflare.com/bots/additional-configurations/ai-labyrinth/)**. It automatically adds invisible links with `nofollow` tags to your pages. Abusive crawlers that ignore `robots.txt` get trapped in a maze of endless links, while legitimate bots — which respect no-crawl instructions — safely ignore them. Trapped bot details are recorded and shared across all Cloudflare customers. Enable it from **Security → Bots → Configure Bot Fight Mode → AI Labyrinth** in the Cloudflare dashboard, with zero code changes required.
+
 ## The GEO Balance
 The core of Generative Engine Optimization is making your site accessible to AI. Aggressive bot protection (like CAPTCHAs on every page) will completely break your GEO efforts. The goal is to let the "good bots" in effortlessly while keeping the "bad bots" out.
