@@ -18,4 +18,6 @@ Suivre les performances de votre site en recherche traditionnelle et dans les sy
 - **Ahrefs / Semrush** : backlinks, mots-clés, concurrence.
 - **Cloudflare Radar** : trafic par type de bot, tendances.
 
+- **AIO/AIM Inspector (RESONEO)** : extension Chrome pour analyser les réponses Google AI Overviews et AI Mode (URLs de grounding, pool, citations affichées). Utile pour mesurer la visibilité sur ces surfaces. Voir la [surveillance des citations](/fr/docs/monitoring-citations) et l’étude [AIO/AIM Deep-dive](https://think.resoneo.com/aio-aim-deepdive/) pour le contexte.
+
 Utilisez-les avec le [suivi du trafic des agents](/fr/docs/tracking-agent-traffic) et la [surveillance des citations](/fr/docs/monitoring-citations) pour une vue GEO complète.

@@ -11,7 +11,11 @@ relatedTerms: ["geo", "monitoring-citations", "backlink"]
 
 ## Definition
 
-A **citation** in the AI context is when an AI system (ChatGPT, Perplexity, Claude, etc.) uses your content to answer a question and attributes it — by naming your site, including a link, or both. It is the GEO analogue of ranking in traditional search: your content is surfaced in the answer. Citations can be explicit (named source, clickable link) or implicit (content shapes the answer without attribution). Monitoring citations measures your GEO effectiveness.
+A **citation** in the AI context is when an AI system (ChatGPT, Perplexity, Claude, Google AI Overviews, etc.) uses your content to answer a question and attributes it — by naming your site, including a link, or both. It is the GEO analogue of ranking in traditional search: your content is surfaced in the answer. Citations can be explicit (named source, clickable link) or implicit (content shapes the answer without attribution). Monitoring citations measures your GEO effectiveness.
+
+## Grounding vs displayed citations
+
+In generative search systems (AI Overviews, AI Mode, ChatGPT Search), the model first relies on a set of **grounding URLs** (sources retrieved upstream). Only a subset of these is then **displayed** to the user as clickable links. Studies that do not separate “URLs used for grounding” from “URLs actually shown” can over- or underestimate a domain’s visibility. In practice, one can distinguish: sidebar-visible sources, in-text citations (links in the response body), and hidden grounding URLs (consulted by the model but not shown). For a technical analysis of Google AI Overviews and AI Mode, see [AIO/AIM Deep-dive (RESONEO)](https://think.resoneo.com/aio-aim-deepdive/).
 
 ## Relevance to GEO
 

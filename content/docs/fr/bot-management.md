@@ -5,19 +5,63 @@ description: "Comment distinguer les agents IA légitimes des scrapers abusifs e
 category: "security"
 order: 1
 publishedAt: "2026-02-22"
+updatedAt: "2026-02-23"
 status: "published"
 ---
 
 ## Le nouveau paysage des bots
 
-Les bots vont des crawlers des moteurs et des agents IA (souvent souhaités) aux scrapers agressifs qui surchargent le serveur ou copient le contenu. Une bonne gestion des bots consiste à autoriser les bons et à limiter ou bloquer les abusifs.
+Avec l'explosion des LLM, le trafic web est de plus en plus automatisé. Mais tous les bots ne se valent pas :
 
-## Stratégies
+1. **Crawlers IA légitimes** : Opérés par des entités connues (OpenAI, Anthropic, Google, Perplexity). Ils s'identifient via `User-Agent`, respectent `robots.txt` et apportent de la valeur en augmentant la visibilité de votre marque dans les réponses IA.
+2. **Scrapers abusifs** : Bots non identifiés qui volent du contenu pour entraîner des modèles privés ou scraper des données sans attribution, souvent en ignorant `robots.txt` et en surchargeant vos serveurs.
 
-- **robots.txt** : indiquer ce que les crawlers respectueux peuvent accéder. Voir [robots.txt](/fr/docs/robots-txt).
-- **User-Agent** : identifier les crawlers connus (GPTBot, ClaudeBot, etc.) vs inconnus ou falsifiés.
-- **Rate limiting** : limiter le nombre de requêtes par IP ou par user-agent. Voir [Rate limiting](/fr/docs/rate-limiting-agents).
-- **Content Signals** : préciser l’usage autorisé du contenu (entraînement, recherche, entrée agent). Voir [Content Signals](/fr/docs/content-signals).
-- **Protection anti-scraping** : pour les cas abusifs, combiner rate limiting, blocage d’IP et, si besoin, solutions dédiées (sans bloquer les vrais agents IA si vous voulez être cités).
+L'objectif d'une bonne gestion des bots : **laisser entrer les bons, limiter ou bloquer les abusifs**.
 
-Voir aussi [Data privacy](/fr/docs/data-privacy) et [Prompt injection](/fr/docs/prompt-injection).
+## Identifier les crawlers légitimes
+
+Les crawlers IA légitimes publient les plages IP qu'ils utilisent. Vous pouvez croiser le `User-Agent` avec une résolution DNS inverse ou une liste officielle d'IPs pour vous assurer qu'un bot ne falsifie pas son identité.
+
+| Crawler | Entreprise | User-Agent |
+|---------|------------|-----------|
+| GPTBot | OpenAI | `GPTBot` |
+| ClaudeBot | Anthropic | `ClaudeBot` |
+| PerplexityBot | Perplexity AI | `PerplexityBot` |
+| Google-Extended | Google | `Google-Extended` |
+| Meta-ExternalAgent | Meta | `Meta-ExternalAgent` |
+
+## Stratégies de gestion
+
+### 1. robots.txt granulaire
+
+Ne bloquez pas tous les bots aveuglément. Autorisez explicitement les agents que vous souhaitez, tout en bloquant les acteurs malveillants connus. Voir [robots.txt](/fr/docs/robots-txt) pour la syntaxe complète.
+
+### 2. Vérification User-Agent et IP
+
+Pour les crawlers légitimes, vérifiez que le User-Agent correspond aux plages IP officielles. Un bot qui prétend être GPTBot mais vient d'une IP non-OpenAI est probablement un imposteur.
+
+### 3. Rate limiting au niveau CDN/WAF
+
+Implémentez le rate limiting dans votre CDN ou WAF (ex. Cloudflare) pour empêcher une seule IP de requêter des centaines de pages par seconde, qu'il s'agisse ou non d'un bot légitime. Voir [Rate limiting des agents](/fr/docs/rate-limiting-agents).
+
+### 4. Content Signals
+
+Précisez l'usage autorisé de votre contenu (entraînement, recherche, entrée agent) via les en-têtes Content Signals. Les crawlers respectueux en tiennent compte. Voir [Content Signals](/fr/docs/content-signals).
+
+### 5. Honeypots
+
+Utilisez des liens ou champs cachés dans votre HTML que seul un bot interagirait. Si un bot déclenche le honeypot, vous pouvez bloquer son IP en toute sécurité.
+
+## L'équilibre GEO
+
+Le cœur de la GEO est de rendre votre site accessible aux agents IA. Une protection agressive (CAPTCHAs sur toutes les pages, blocage de tous les bots) brisera complètement vos efforts GEO. L'objectif est de laisser les « bons bots » entrer sans friction tout en tenant les « mauvais bots » à l'écart.
+
+**Principe directeur** : ne bloquez jamais un crawler IA légitime si vous souhaitez être cité dans ses réponses.
+
+## Outils et ressources
+
+- [Cloudflare Bot Management](https://www.cloudflare.com/products/bot-management/) — protection bot au niveau CDN
+- [robots.txt](/fr/docs/robots-txt) — contrôle d'accès par crawler
+- [Rate limiting des agents](/fr/docs/rate-limiting-agents) — protéger les ressources serveur
+- [Content Signals](/fr/docs/content-signals) — déclarer les permissions d'usage du contenu
+- [Suivi du trafic des agents](/fr/docs/tracking-agent-traffic) — identifier et mesurer le trafic IA

@@ -75,3 +75,7 @@ Considérez la GEO comme une **couche au-dessus du SEO**, pas un remplacement.
 ## L’analogie du classement
 
 En SEO, vous optimisez pour être en position 1–10. En GEO, vous optimisez pour être **la source citée** dans une réponse générée par l’IA. Les mécaniques diffèrent, mais l’objectif est le même : être la source la plus fiable et la plus accessible sur un sujet.
+
+## Plusieurs surfaces, plusieurs pipelines
+
+Sur une même plateforme, plusieurs surfaces IA peuvent coexister avec des pipelines distincts. Par exemple, sur Google, les **AI Overviews** (résumé one-shot en haut de la SERP) et **AI Mode** (interface conversationnelle dédiée) ne partagent que peu d’URLs citées pour une même requête : les stratégies de récupération et les jeux de sources diffèrent. Optimiser pour la GEO implique donc de considérer que la visibilité peut varier selon la surface (AIO, AIM, Perplexity, ChatGPT Search, etc.) et que les bonnes pratiques techniques (indexation, snippet, contenu structuré) restent le socle commun. Voir l’étude [AIO/AIM Deep-dive (RESONEO)](https://think.resoneo.com/aio-aim-deepdive/) pour une analyse technique de ces différences.

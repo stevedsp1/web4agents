@@ -51,6 +51,6 @@ Utilisez ce barème pour prioriser :
 |----------|----------|
 | **Haute** | robots.txt, llms.txt, sitemap.xml, HTTPS, Schema.org |
 | **Moyenne** | JSON-LD, Open Graph, hiérarchie des titres, Core Web Vitals |
-| **Basse** | humans.txt, cache CDN, surveillance des citations |
+| **Basse** | Cache CDN, surveillance des citations, entités Knowledge Graph |
 
 Commencez par les éléments de haute priorité. Ils ont le plus d’impact sur la découvrabilité et la confiance pour les agents.

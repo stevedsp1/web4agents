@@ -51,6 +51,6 @@ Use this rough scoring to prioritize:
 |----------|-------|
 | **High** | robots.txt, llms.txt, sitemap.xml, HTTPS, Schema.org |
 | **Medium** | JSON-LD, Open Graph, heading hierarchy, Core Web Vitals |
-| **Low** | humans.txt, CDN caching, citation monitoring |
+| **Low** | CDN caching, citation monitoring, Knowledge Graph entities |
 
 Start with the high-priority items. They have the most impact on agent discoverability and trustworthiness.

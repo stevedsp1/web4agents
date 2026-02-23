@@ -15,7 +15,7 @@
     "ctaAudit": "Request an audit",
     "agentReadyTitle": "What we mean by agent-ready",
     "agentReadyIntro": "Generative Engine Optimization (GEO) means making your site readable, actionable, and secure for autonomous agents. Readable: structured data and clear semantics so agents extract facts without guessing. Actionable: forms, APIs, and clear CTAs so they can complete tasks. Secure: boundaries via robots.txt, llms.txt, and Content-Signal so you stay in control.",
-    "agentReadyCta": "See the practices",
+    "agentReadyCta": "View best practices",
     "geoReadability": "Readability",
     "geoReadabilityDesc": "Structured data, clear semantics, and machine-parseable formats so agents extract facts without guessing.",
     "geoActionability": "Actionability",
