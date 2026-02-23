@@ -1,9 +1,23 @@
 import type { Metadata } from "next";
+import { headers } from "next/headers";
 
 const DEFAULT_BASE_URL = "https://web4agents.org";
 
 export function getBaseUrl(): string {
   return process.env.NEXT_PUBLIC_SITE_URL ?? DEFAULT_BASE_URL;
+}
+
+/** Base URL for the current request (matches host, so canonical aligns with www vs non-www). Use in generateMetadata. */
+function getBaseUrlFromRequest(): string {
+  try {
+    const h = headers();
+    const host = h.get("host");
+    const proto = h.get("x-forwarded-proto") ?? "https";
+    if (host) return `${proto === "https" ? "https" : "http"}://${host}`;
+  } catch {
+    // no request context (e.g. static export)
+  }
+  return getBaseUrl();
 }
 
 export interface BuildMetadataParams {
@@ -17,9 +31,9 @@ export interface BuildMetadataParams {
   getPathForLocale?: (locale: string) => string;
 }
 
-/** Build common metadata (OG, Twitter, canonical, hreflang) for a page. path must start with / and include locale, e.g. /en/glossary */
+/** Build common metadata (OG, Twitter, canonical, hreflang) for a page. path must start with / and include locale, e.g. /en/glossary. Uses request host for canonical so it matches the actual URL (fixes www/non-www mismatch). */
 export function buildMetadata(params: BuildMetadataParams): Metadata {
-  const baseUrl = getBaseUrl();
+  const baseUrl = getBaseUrlFromRequest();
   const path = params.path.startsWith("/") ? params.path : `/${params.path}`;
   const canonical = `${baseUrl}${path}`;
   const pathForLocale = params.getPathForLocale ?? ((locale: string) => path.replace(/^\/[^/]+/, `/${locale}`));

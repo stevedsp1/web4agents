@@ -49,6 +49,7 @@ export function CookieBanner() {
         <Link
           href="/privacy"
           className="underline underline-offset-2 hover:text-accent dark:hover:text-accent"
+          aria-label={t("privacy")}
         >
           {t("privacy")}
         </Link>
