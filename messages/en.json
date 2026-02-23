@@ -49,6 +49,13 @@
     "closeMenu": "Close menu",
     "notFoundTitle": "Not found"
   },
+  "cookieBanner": {
+    "label": "Cookie choices",
+    "message": "We use cookies for traffic analytics (Google Analytics).",
+    "privacy": "Learn more",
+    "accept": "Accept",
+    "decline": "Decline"
+  },
   "contactPage": {
     "intro": "Send us a message and we'll get back to you as soon as possible.",
     "reachUs": "You can also reach us at"

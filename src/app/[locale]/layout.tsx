@@ -6,6 +6,7 @@ import { Inter, JetBrains_Mono } from "next/font/google";
 import { routing } from "@/i18n/routing";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
+import { CookieBanner } from "@/components/CookieBanner";
 import { AxeMonitor } from "@/components/dev/AxeMonitor";
 import { JsonLd } from "@/components/seo/JsonLd";
 import {
@@ -59,7 +60,7 @@ export default async function LocaleLayout({ children, params }: Props) {
             strategy="afterInteractive"
           />
           <Script id="ga4-config" strategy="afterInteractive">
-            {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '${gaId}');`}
+            {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('consent', 'default', { analytics_storage: 'denied' }); gtag('config', '${gaId}');`}
           </Script>
         </>
       )}
@@ -72,6 +73,7 @@ export default async function LocaleLayout({ children, params }: Props) {
           {children}
         </main>
         <Footer />
+        <CookieBanner />
       </div>
     </NextIntlClientProvider>
   );

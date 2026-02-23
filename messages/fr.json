@@ -49,6 +49,13 @@
     "closeMenu": "Fermer le menu",
     "notFoundTitle": "Page introuvable"
   },
+  "cookieBanner": {
+    "label": "Choix des cookies",
+    "message": "Nous utilisons des cookies pour l'analyse du trafic (Google Analytics).",
+    "privacy": "En savoir plus",
+    "accept": "Accepter",
+    "decline": "Refuser"
+  },
   "contactPage": {
     "intro": "Envoyez-nous un message et nous vous répondrons dans les plus brefs délais.",
     "reachUs": "Vous pouvez aussi nous contacter à"
