@@ -1,12 +1,15 @@
 ---
-title: "Cache-Control"
-slug: "cache-control"
-type: "standard"
-description: "En-tête HTTP qui définit combien de temps et où une réponse peut être mise en cache (navigateurs, CDN, intermédiaires)."
-category: "agent-facing"
-publishedAt: "2026-02-20"
-status: "published"
-relatedTerms: ["cdn-and-caching", "etag", "content-freshness"]
+title: Cache-Control
+slug: cache-control
+type: standard
+description: 'En-tête HTTP qui définit combien de temps et où une réponse peut être mise en cache (navigateurs, CDN, intermédiaires).'
+category: agent-facing
+publishedAt: '2026-02-20'
+status: published
+relatedTerms:
+  - cdn-and-caching
+  - etag
+  - content-freshness
 ---
 
 ## Définition

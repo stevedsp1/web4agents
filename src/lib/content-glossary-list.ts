@@ -7,6 +7,8 @@ const CONTENT_DIR = path.join(process.cwd(), "content");
 export type GlossaryType = "concept" | "tool" | "actor" | "standard";
 
 export interface GlossaryEntry {
+  /** Stable key (filename without .md); same across locales. */
+  id: string;
   slug: string;
   title: string;
   description?: string;
@@ -57,7 +59,9 @@ export async function getGlossaryEntries(locale: string): Promise<GlossaryEntry[
     const slug = (fm.slug as string) ?? slugFromFilename(filePath);
     if (!fm.title || !fm.type || !fm.publishedAt || !fm.status) continue;
     if (!isPublished(String(fm.status), String(fm.publishedAt))) continue;
+    const id = slugFromFilename(filePath);
     entries.push({
+      id,
       slug,
       title: String(fm.title),
       description: fm.description != null ? String(fm.description) : undefined,
@@ -76,4 +80,21 @@ export async function getGlossaryEntries(locale: string): Promise<GlossaryEntry[
   }
   entries.sort((a, b) => a.title.localeCompare(b.title, "en"));
   return entries;
+}
+
+/** Get the URL slug for a glossary term in a given locale (by stable id). */
+export async function getGlossarySlugForLocale(id: string, locale: string): Promise<string | null> {
+  const dir = path.join(CONTENT_DIR, "glossary", locale);
+  const filePath = path.join(dir, `${id}.md`);
+  try {
+    const raw = await fs.readFile(filePath, "utf-8");
+    const { data } = matter(raw);
+    const fm = data as Record<string, unknown>;
+    const slug = (fm.slug as string) ?? id;
+    if (!fm.title || !fm.type || !fm.publishedAt || !fm.status) return null;
+    if (!isPublished(String(fm.status), String(fm.publishedAt))) return null;
+    return slug;
+  } catch {
+    return null;
+  }
 }

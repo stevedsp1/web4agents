@@ -1,11 +1,11 @@
 ---
-title: "Surveillance des citations"
-slug: "monitoring-citations"
-description: "Comment suivre quand votre site est cité dans les réponses générées par l'IA et mesurer votre visibilité dans l'IA."
-category: "analytics"
+title: Surveillance des citations
+slug: surveillance-des-citations
+description: Comment suivre quand votre site est cité dans les réponses générées par l'IA et mesurer votre visibilité dans l'IA.
+category: analytics
 order: 2
-publishedAt: "2025-02-15"
-status: "published"
+publishedAt: '2025-02-15'
+status: published
 ---
 
 Quand un système IA comme ChatGPT, Perplexity ou Claude répond à une question en s’appuyant sur votre contenu, c’est une **citation** — l’équivalent IA d’une position dans les résultats de recherche. Surveiller les citations permet de mesurer l’efficacité de votre GEO et votre influence sur le web piloté par l’IA.

@@ -1,12 +1,14 @@
 ---
-title: "hreflang"
-slug: "hreflang"
-type: "standard"
-description: "Attribut ou balise link qui indique la langue et la cible géographique d'une page pour les variantes multilingues."
-category: "agent-facing"
-publishedAt: "2026-02-20"
-status: "published"
-relatedTerms: ["canonical-url", "seo"]
+title: hreflang
+slug: hreflang
+type: standard
+description: Attribut ou balise link qui indique la langue et la cible géographique d'une page pour les variantes multilingues.
+category: agent-facing
+publishedAt: '2026-02-20'
+status: published
+relatedTerms:
+  - canonical-url
+  - seo
 ---
 
 ## Définition

@@ -1,12 +1,15 @@
 ---
-title: "Maillage interne"
-slug: "internal-linking"
-type: "concept"
-description: "Liens entre pages du même site ; signal pour le SEO et pour la navigation des agents dans le graphe de contenu."
-category: "core-concepts"
-publishedAt: "2026-02-20"
-status: "published"
-relatedTerms: ["seo", "backlink", "breadcrumbs"]
+title: Maillage interne
+slug: maillage-interne
+type: concept
+description: Liens entre pages du même site ; signal pour le SEO et pour la navigation des agents dans le graphe de contenu.
+category: core-concepts
+publishedAt: '2026-02-20'
+status: published
+relatedTerms:
+  - seo
+  - backlink
+  - breadcrumbs
 ---
 
 ## Définition

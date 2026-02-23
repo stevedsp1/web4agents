@@ -1,12 +1,14 @@
 ---
-title: "Core Web Vitals"
-slug: "core-web-vitals"
-type: "concept"
-description: "Métriques Google pour l'expérience page : LCP (chargement), INP (interactivité), CLS (stabilité visuelle)."
-category: "core-concepts"
-publishedAt: "2026-02-20"
-status: "published"
-relatedTerms: ["performance", "seo"]
+title: Core Web Vitals
+slug: core-web-vitals
+type: concept
+description: 'Métriques Google pour l''expérience page : LCP (chargement), INP (interactivité), CLS (stabilité visuelle).'
+category: core-concepts
+publishedAt: '2026-02-20'
+status: published
+relatedTerms:
+  - performance
+  - seo
 ---
 
 ## Définition

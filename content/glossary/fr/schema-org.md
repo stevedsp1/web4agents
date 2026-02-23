@@ -1,14 +1,16 @@
 ---
-title: "Schema.org"
-slug: "schema-org"
-type: "standard"
-description: "Vocabulaire de types de données structurées pour décrire les entités et relations sur le web."
-category: "structured-data"
-publishedAt: "2025-02-01"
-updatedAt: "2025-02-15"
-status: "published"
-website: "https://schema.org"
-relatedTerms: ["geo", "machine-readable-content"]
+title: Schema.org
+slug: schemaorg
+type: standard
+description: Vocabulaire de types de données structurées pour décrire les entités et relations sur le web.
+category: structured-data
+publishedAt: '2025-02-01'
+updatedAt: '2025-02-15'
+status: published
+website: 'https://schema.org'
+relatedTerms:
+  - geo
+  - machine-readable-content
 ---
 
 ## Définition

@@ -1,12 +1,14 @@
 ---
-title: "ETag"
-slug: "etag"
-type: "standard"
-description: "En-tête HTTP qui identifie une version d'une ressource pour la validation de cache."
-category: "agent-facing"
-publishedAt: "2026-02-20"
-status: "published"
-relatedTerms: ["cache-control", "content-freshness"]
+title: ETag
+slug: etag
+type: standard
+description: En-tête HTTP qui identifie une version d'une ressource pour la validation de cache.
+category: agent-facing
+publishedAt: '2026-02-20'
+status: published
+relatedTerms:
+  - cache-control
+  - content-freshness
 ---
 
 ## Définition

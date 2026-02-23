@@ -1,12 +1,12 @@
 ---
-title: "Maillage interne"
-slug: "internal-linking"
-description: "Comment le maillage interne aide à la fois le SEO traditionnel et les agents IA à naviguer dans le graphe de contenu de votre site."
-category: "technical-seo"
+title: Maillage interne
+slug: maillage-interne
+description: Comment le maillage interne aide à la fois le SEO traditionnel et les agents IA à naviguer dans le graphe de contenu de votre site.
+category: technical-seo
 order: 2
-publishedAt: "2026-02-01"
-updatedAt: "2026-02-23"
-status: "published"
+publishedAt: '2026-02-01'
+updatedAt: '2026-02-23'
+status: published
 ---
 
 ## Maillage interne : un signal pour le SEO et les agents

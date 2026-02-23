@@ -1,12 +1,14 @@
 ---
-title: "TTFB (Time to First Byte)"
-slug: "ttfb"
-type: "concept"
-description: "Temps entre la requête HTTP et la réception du premier octet de la réponse ; indicateur de réactivité serveur."
-category: "agent-facing"
-publishedAt: "2026-02-20"
-status: "published"
-relatedTerms: ["performance", "core-web-vitals"]
+title: TTFB (Time to First Byte)
+slug: ttfb-time-to-first-byte
+type: concept
+description: Temps entre la requête HTTP et la réception du premier octet de la réponse ; indicateur de réactivité serveur.
+category: agent-facing
+publishedAt: '2026-02-20'
+status: published
+relatedTerms:
+  - performance
+  - core-web-vitals
 ---
 
 ## Définition

@@ -1,14 +1,16 @@
 ---
-title: "n8n"
-slug: "n8n"
-type: "tool"
-description: "Outil d'automatisation workflow (low-code) qui peut intégrer des LLM et des agents."
-category: "agent-frameworks"
-publishedAt: "2025-02-01"
-updatedAt: "2025-02-15"
-status: "published"
-website: "https://n8n.io"
-relatedTerms: ["langchain", "autogpt"]
+title: n8n
+slug: n8n
+type: tool
+description: Outil d'automatisation workflow (low-code) qui peut intégrer des LLM et des agents.
+category: agent-frameworks
+publishedAt: '2025-02-01'
+updatedAt: '2025-02-15'
+status: published
+website: 'https://n8n.io'
+relatedTerms:
+  - langchain
+  - autogpt
 ---
 
 ## Aperçu

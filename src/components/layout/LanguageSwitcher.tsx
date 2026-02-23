@@ -7,6 +7,13 @@ import { pathnameToInternalHref } from "@/i18n/routing";
 
 const LOCALES = ["en", "fr"] as const;
 
+const GLOSSARY_OR_DOCS = ["glossary", "glossaire", "docs", "documentation"];
+
+function pathnameHasLocalizedSlug(pathname: string): boolean {
+  const segments = pathname.split("/").filter(Boolean);
+  return segments.length >= 3 && GLOSSARY_OR_DOCS.includes(segments[1] ?? "");
+}
+
 export function LanguageSwitcher() {
   const locale = useLocale();
   const pathname = usePathname();
@@ -33,11 +40,35 @@ export function LanguageSwitcher() {
     }
   }, [open]);
 
-  const selectLocale = (loc: string) => {
-    if (loc !== locale) {
-      const href = pathnameToInternalHref(pathname);
-      router.replace(href as Parameters<typeof router.replace>[0], { locale: loc });
+  const selectLocale = async (loc: string) => {
+    if (loc === locale) {
+      setOpen(false);
+      return;
     }
+    // window.location.pathname already contains the locale prefix (e.g. /fr/glossaire/base-vectorielle)
+    // next-intl's usePathname() can return a template string like /glossary/[slug], so we prefer the real URL.
+    const actualPath = typeof window !== "undefined" ? window.location.pathname : pathname;
+
+    if (pathnameHasLocalizedSlug(actualPath)) {
+      try {
+        const res = await fetch(
+          `/api/alternate-path?pathname=${encodeURIComponent(actualPath)}&locale=${encodeURIComponent(loc)}`
+        );
+        const data = (await res.json()) as { path?: string };
+        if (res.ok && data.path) {
+          // data.path is a full localized path like /en/docs/ai-crawlers-overview.
+          // Convert to next-intl internal format (without locale) then switch locale explicitly.
+          const href = pathnameToInternalHref(data.path);
+          router.replace(href as Parameters<typeof router.replace>[0], { locale: loc });
+          setOpen(false);
+          return;
+        }
+      } catch {
+        // fallback below
+      }
+    }
+    const href = pathnameToInternalHref(actualPath);
+    router.replace(href as Parameters<typeof router.replace>[0], { locale: loc });
     setOpen(false);
   };
 

@@ -1,11 +1,11 @@
 ---
-title: "Vue d'ensemble des crawlers IA"
-slug: "ai-crawlers-overview"
-description: "Guide de référence des principaux crawlers IA : qui ils sont, ce qu'ils font et comment les identifier."
-category: "crawlers"
+title: Vue d'ensemble des crawlers IA
+slug: vue-densemble-des-crawlers-ia
+description: 'Guide de référence des principaux crawlers IA : qui ils sont, ce qu''ils font et comment les identifier.'
+category: crawlers
 order: 1
-publishedAt: "2025-02-15"
-status: "published"
+publishedAt: '2025-02-15'
+status: published
 ---
 
 Les entreprises d’IA exploitent des crawlers web dédiés pour collecter du contenu (entraînement, récupération en temps réel, usage par des agents). En tant que propriétaire de site, savoir quels crawlers existent et ce qu’ils font est la première étape pour contrôler l’usage de votre contenu.

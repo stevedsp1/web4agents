@@ -1,12 +1,14 @@
 ---
-title: "Négociation de contenu"
-slug: "content-negotiation"
-type: "concept"
-description: "Mécanisme HTTP par lequel le client indique le format de réponse préféré (ex. Accept: text/markdown) et le serveur renvoie le format correspondant."
-category: "agent-facing"
-publishedAt: "2026-02-20"
-status: "published"
-relatedTerms: ["markdown-for-agents", "cdn-and-caching"]
+title: Négociation de contenu
+slug: negociation-de-contenu
+type: concept
+description: 'Mécanisme HTTP par lequel le client indique le format de réponse préféré (ex. Accept: text/markdown) et le serveur renvoie le format correspondant.'
+category: agent-facing
+publishedAt: '2026-02-20'
+status: published
+relatedTerms:
+  - markdown-for-agents
+  - cdn-and-caching
 ---
 
 ## Définition

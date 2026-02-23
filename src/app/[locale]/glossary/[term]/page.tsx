@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { getTranslations } from "next-intl/server";
-import { getGlossaryEntries, getGlossaryEntry, createGlossaryPlugin } from "@/lib/content";
+import { getGlossaryEntries, getGlossaryEntry, getGlossarySlugForLocale, createGlossaryPlugin } from "@/lib/content";
 import { Link } from "@/i18n/navigation";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { ArticleMeta } from "@/components/content/ArticleMeta";
@@ -41,12 +41,17 @@ export async function generateMetadata({ params }: Props) {
     return { title: t("notFoundTitle") };
   }
   const path = `/${locale}${getExternalPath("/glossary", locale)}/${term}`;
+  const pathByLocale: Record<string, string> = {};
+  for (const loc of routing.locales) {
+    const slugForLoc = await getGlossarySlugForLocale(entry.id, loc);
+    pathByLocale[loc] = `/${loc}${getExternalPath("/glossary", loc)}/${slugForLoc ?? entry.slug}`;
+  }
   return buildMetadata({
     title: entry.title,
     description: entry.description ?? undefined,
     path,
     locales: routing.locales,
-    getPathForLocale: (loc) => `/${loc}${getExternalPath("/glossary", loc)}/${term}`,
+    getPathForLocale: (loc) => pathByLocale[loc] ?? path,
   });
 }
 
@@ -80,7 +85,7 @@ export default async function GlossaryTermPage({ params }: Props) {
         : organizationJsonLd(canonicalUrl, entry.title, entry.description);
 
   const related = entry.relatedTerms
-    ? entries.filter((e) => entry.relatedTerms?.includes(e.slug))
+    ? entries.filter((e) => entry.relatedTerms?.includes(e.id))
     : [];
 
   return (

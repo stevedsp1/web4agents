@@ -1,11 +1,11 @@
 ---
-title: "Model Context Protocol (MCP)"
-slug: "mcp"
-description: "Ce qu'est le MCP, comment il fonctionne et comment exposer vos services aux agents IA via un protocole standardisé."
-category: "protocols"
+title: Model Context Protocol (MCP)
+slug: model-context-protocol-mcp
+description: 'Ce qu''est le MCP, comment il fonctionne et comment exposer vos services aux agents IA via un protocole standardisé.'
+category: protocols
 order: 1
-publishedAt: "2026-02-01"
-status: "published"
+publishedAt: '2026-02-01'
+status: published
 ---
 
 ## Qu’est-ce que le Model Context Protocol ?

@@ -1,11 +1,11 @@
 ---
-title: "Suivi du trafic des agents"
-slug: "tracking-agent-traffic"
-description: "Comment identifier et mesurer le trafic des crawlers et agents IA dans vos analytics et logs serveur."
-category: "analytics"
+title: Suivi du trafic des agents
+slug: suivi-du-trafic-des-agents
+description: Comment identifier et mesurer le trafic des crawlers et agents IA dans vos analytics et logs serveur.
+category: analytics
 order: 1
-publishedAt: "2025-02-15"
-status: "published"
+publishedAt: '2025-02-15'
+status: published
 ---
 
 Le trafic des agents IA est réel, en croissance et utile à mesurer. Savoir quels agents visitent votre site, à quelle fréquence et quelles pages ils lisent vous aide à évaluer l’efficacité de votre GEO et à repérer des opportunités.

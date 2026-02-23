@@ -1,12 +1,15 @@
 ---
-title: "E-E-A-T"
-slug: "eeat"
-type: "concept"
-description: "Cadre Google (Expérience, Expertise, Autorité, Confiance) pour évaluer la qualité et la fiabilité du contenu."
-category: "core-concepts"
-publishedAt: "2026-02-20"
-status: "published"
-relatedTerms: ["seo", "backlink", "geo"]
+title: E-E-A-T
+slug: e-e-a-t
+type: concept
+description: 'Cadre Google (Expérience, Expertise, Autorité, Confiance) pour évaluer la qualité et la fiabilité du contenu.'
+category: core-concepts
+publishedAt: '2026-02-20'
+status: published
+relatedTerms:
+  - seo
+  - backlink
+  - geo
 ---
 
 ## Définition

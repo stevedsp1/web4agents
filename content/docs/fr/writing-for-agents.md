@@ -1,12 +1,12 @@
 ---
-title: "Écrire pour les agents IA"
-slug: "writing-for-agents"
-description: "Comment structurer et rédiger le contenu pour que les agents IA puissent l'extraire, le résumer et le citer correctement."
-category: "content-markup"
+title: Écrire pour les agents IA
+slug: ecrire-pour-les-agents-ia
+description: 'Comment structurer et rédiger le contenu pour que les agents IA puissent l''extraire, le résumer et le citer correctement.'
+category: content-markup
 order: 1
-publishedAt: "2026-02-01"
-updatedAt: "2026-02-23"
-status: "published"
+publishedAt: '2026-02-01'
+updatedAt: '2026-02-23'
+status: published
 ---
 
 ## Du contenu pour les humains au contenu pour les agents

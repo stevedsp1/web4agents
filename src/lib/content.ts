@@ -35,6 +35,8 @@ export interface GlossaryFrontmatter {
 }
 
 export interface GlossaryEntry {
+  /** Stable key (filename without .md); same across locales. */
+  id: string;
   slug: string;
   title: string;
   description?: string;
@@ -184,7 +186,7 @@ function slugFromFilename(filePath: string): string {
   return path.basename(filePath, ".md");
 }
 
-export { getGlossaryEntries } from "./content-glossary-list";
+export { getGlossaryEntries, getGlossarySlugForLocale } from "./content-glossary-list";
 
 /** Build the glossary auto-link remark plugin for a locale and list of entries. */
 export function createGlossaryPlugin(
@@ -216,7 +218,9 @@ export async function getGlossaryEntry(
     if (!fm.title || !fm.type || !fm.publishedAt || !fm.status) return null;
     if (!isPublished(fm.status, fm.publishedAt)) return null;
     const bodyHtml = await compileMarkdown(content.trim(), remarkPlugins);
+    const id = slugFromFilename(filePath);
     return {
+      id,
       slug,
       title: fm.title,
       description: fm.description,

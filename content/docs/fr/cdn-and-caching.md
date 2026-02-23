@@ -1,11 +1,11 @@
 ---
-title: "CDN et cache pour les agents"
-slug: "cdn-and-caching"
-description: "Comment configurer votre CDN et votre stratégie de cache pour servir efficacement les visiteurs humains et les agents IA."
-category: "domain"
+title: CDN et cache pour les agents
+slug: cdn-et-cache-pour-les-agents
+description: Comment configurer votre CDN et votre stratégie de cache pour servir efficacement les visiteurs humains et les agents IA.
+category: domain
 order: 3
-publishedAt: "2026-02-01"
-status: "published"
+publishedAt: '2026-02-01'
+status: published
 ---
 
 ## Pourquoi le CDN et le cache comptent pour les agents

@@ -1,13 +1,16 @@
 ---
-title: "Model Context Protocol (MCP)"
-slug: "mcp"
-type: "standard"
-description: "Protocole ouvert pour exposer des ressources (fichiers, données, outils) aux clients IA de façon standardisée."
-category: "agent-facing"
-publishedAt: "2026-02-20"
-status: "published"
-website: "https://modelcontextprotocol.io"
-relatedTerms: ["openapi", "geo", "code-mode"]
+title: Model Context Protocol (MCP)
+slug: model-context-protocol-mcp
+type: standard
+description: 'Protocole ouvert pour exposer des ressources (fichiers, données, outils) aux clients IA de façon standardisée.'
+category: agent-facing
+publishedAt: '2026-02-20'
+status: published
+website: 'https://modelcontextprotocol.io'
+relatedTerms:
+  - openapi
+  - geo
+  - code-mode
 ---
 
 ## Définition

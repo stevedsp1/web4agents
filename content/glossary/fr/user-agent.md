@@ -1,13 +1,16 @@
 ---
-title: "User-Agent"
-slug: "user-agent"
-type: "standard"
-description: "Chaîne envoyée par le client (navigateur ou crawler) pour s'identifier ; utilisée dans robots.txt pour cibler des crawlers."
-category: "agent-facing"
-publishedAt: "2025-02-01"
-updatedAt: "2025-02-15"
-status: "published"
-relatedTerms: ["robots-txt", "ai-crawlers-overview", "tracking-agent-traffic"]
+title: User-Agent
+slug: user-agent
+type: standard
+description: Chaîne envoyée par le client (navigateur ou crawler) pour s'identifier ; utilisée dans robots.txt pour cibler des crawlers.
+category: agent-facing
+publishedAt: '2025-02-01'
+updatedAt: '2025-02-15'
+status: published
+relatedTerms:
+  - robots-txt
+  - ai-crawlers-overview
+  - tracking-agent-traffic
 ---
 
 ## Définition

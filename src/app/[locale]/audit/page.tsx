@@ -2,6 +2,7 @@ import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 import { buildMetadata, faqJsonLd } from "@/lib/seo";
+import { getDocSlugForLocale } from "@/lib/content-docs";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { AuditRequestForm } from "@/components/forms/AuditRequestForm";
 
@@ -26,6 +27,7 @@ export default async function AuditPage({ params }: Props) {
 
   const t = await getTranslations("nav");
   const tAudit = await getTranslations("auditPage");
+  const checklistSlug = (await getDocSlugForLocale("checklist", locale)) ?? "checklist";
 
   const faq = [
     { question: tAudit("faq1Q"), answer: tAudit("faq1A") },
@@ -89,7 +91,7 @@ export default async function AuditPage({ params }: Props) {
                 Docs
               </Link>
               {" · "}
-              <Link href={{ pathname: "/docs/[slug]", params: { slug: "checklist" } }} className="text-accent hover:underline underline-offset-4">
+              <Link href={{ pathname: "/docs/[slug]", params: { slug: checklistSlug } }} className="text-accent hover:underline underline-offset-4">
                 Checklist
               </Link>
             </p>

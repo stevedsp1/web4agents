@@ -1,11 +1,11 @@
 ---
-title: "Injection de prompt indirecte"
-slug: "prompt-injection"
-description: "Comprendre les risques du code source HTML malveillant et comment protéger les LLM qui visitent vos pages."
-category: "security"
+title: Injection de prompt indirecte
+slug: injection-de-prompt-indirecte
+description: Comprendre les risques du code source HTML malveillant et comment protéger les LLM qui visitent vos pages.
+category: security
 order: 2
-publishedAt: "2026-02-22"
-status: "published"
+publishedAt: '2026-02-22'
+status: published
 ---
 
 ## Qu’est-ce que l’injection de prompt indirecte ?

@@ -14,6 +14,8 @@ import type { Plugin } from "unified";
 const CONTENT_DIR = path.join(process.cwd(), "content");
 
 export interface DocEntry {
+  /** Stable key (filename without .md); same across locales. */
+  id: string;
   slug: string;
   title: string;
   description?: string;
@@ -70,7 +72,9 @@ export async function getDocEntries(locale: string): Promise<DocEntry[]> {
     const slug = (fm.slug as string) ?? slugFromFilename(filePath);
     if (!fm.title || !fm.category || !fm.publishedAt || !fm.status) continue;
     if (!isPublished(String(fm.status), String(fm.publishedAt))) continue;
+    const id = slugFromFilename(filePath);
     entries.push({
+      id,
       slug,
       title: String(fm.title),
       description: fm.description != null ? String(fm.description) : undefined,
@@ -143,7 +147,9 @@ export async function getDocPage(
       .use(rehypeStringify, { allowDangerousHtml: true })
       .process(content.trim());
 
+    const id = slugFromFilename(filePath);
     return {
+      id,
       slug: fileSlug,
       title: String(fm.title),
       description: fm.description != null ? String(fm.description) : undefined,
@@ -158,4 +164,21 @@ export async function getDocPage(
     };
   }
   return null;
+}
+
+/** Get the URL slug for a doc page in a given locale (by stable id). */
+export async function getDocSlugForLocale(id: string, locale: string): Promise<string | null> {
+  const dir = path.join(CONTENT_DIR, "docs", locale);
+  const filePath = path.join(dir, `${id}.md`);
+  try {
+    const raw = await fs.readFile(filePath, "utf-8");
+    const { data } = matter(raw);
+    const fm = data as Record<string, unknown>;
+    const slug = (fm.slug as string) ?? id;
+    if (!fm.title || !fm.category || !fm.publishedAt || !fm.status) return null;
+    if (!isPublished(String(fm.status), String(fm.publishedAt))) return null;
+    return slug;
+  } catch {
+    return null;
+  }
 }

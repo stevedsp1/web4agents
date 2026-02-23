@@ -1,11 +1,11 @@
 ---
-title: "AI Overviews et AI Mode (Google)"
-slug: "ai-overviews"
-description: "Comment fonctionnent les AI Overviews et AI Mode de Google, comment y apparaître, et ce que les éditeurs peuvent faire pour optimiser leur visibilité."
-category: "getting-started"
+title: AI Overviews et AI Mode (Google)
+slug: ai-overviews-et-ai-mode-google
+description: 'Comment fonctionnent les AI Overviews et AI Mode de Google, comment y apparaître, et ce que les éditeurs peuvent faire pour optimiser leur visibilité.'
+category: getting-started
 order: 4
-publishedAt: "2026-02-23"
-status: "published"
+publishedAt: '2026-02-23'
+status: published
 ---
 
 ## Deux surfaces IA distinctes sur Google

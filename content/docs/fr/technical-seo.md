@@ -1,11 +1,11 @@
 ---
-title: "SEO technique pour les agents"
-slug: "technical-seo"
-description: "Pratiques SEO techniques fondamentales — URLs canoniques, balises meta, pagination, hreflang — et leur application à l'optimisation pour les agents IA."
-category: "technical-seo"
+title: SEO technique pour les agents
+slug: seo-technique-pour-les-agents
+description: 'Pratiques SEO techniques fondamentales — URLs canoniques, balises meta, pagination, hreflang — et leur application à l''optimisation pour les agents IA.'
+category: technical-seo
 order: 1
-publishedAt: "2026-02-01"
-status: "published"
+publishedAt: '2026-02-01'
+status: published
 ---
 
 ## Pourquoi le SEO technique compte encore pour les agents

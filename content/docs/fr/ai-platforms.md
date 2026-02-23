@@ -1,11 +1,11 @@
 ---
-title: "Optimisation par plateforme IA"
-slug: "ai-platforms"
-description: "Spécificités de chaque plateforme de recherche IA (Google, Perplexity, ChatGPT, Claude, Bing Copilot) et comment adapter votre optimisation."
-category: "getting-started"
+title: Optimisation par plateforme IA
+slug: optimisation-par-plateforme-ia
+description: 'Spécificités de chaque plateforme de recherche IA (Google, Perplexity, ChatGPT, Claude, Bing Copilot) et comment adapter votre optimisation.'
+category: getting-started
 order: 6
-publishedAt: "2026-02-23"
-status: "published"
+publishedAt: '2026-02-23'
+status: published
 ---
 
 ## Pourquoi les plateformes diffèrent

@@ -1,11 +1,11 @@
 ---
-title: "sitemap.xml"
-slug: "sitemap-xml"
-description: "Pourquoi le sitemap.xml compte pour les agents IA et comment l'optimiser."
-category: "structured-data"
+title: sitemap.xml
+slug: sitemapxml
+description: Pourquoi le sitemap.xml compte pour les agents IA et comment l'optimiser.
+category: structured-data
 order: 4
-publishedAt: "2025-02-15"
-status: "published"
+publishedAt: '2025-02-15'
+status: published
 ---
 
 Un fichier `sitemap.xml` indique aux moteurs de recherche et aux crawlers IA quelles pages existent sur votre site. Si les sitemaps sont un **pilier du SEO** depuis des années, ils sont tout aussi importants pour les agents IA qui doivent découvrir votre contenu efficacement.

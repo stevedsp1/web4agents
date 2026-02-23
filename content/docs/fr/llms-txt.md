@@ -1,11 +1,11 @@
 ---
-title: "llms.txt"
-slug: "llms-txt"
-description: "Comment créer et servir un fichier llms.txt pour que les agents IA comprennent votre site."
-category: "agent-config"
+title: llms.txt
+slug: llmstxt
+description: Comment créer et servir un fichier llms.txt pour que les agents IA comprennent votre site.
+category: agent-config
 order: 1
-publishedAt: "2025-02-15"
-status: "published"
+publishedAt: '2025-02-15'
+status: published
 ---
 
 Le fichier `llms.txt` est une proposition de standard qui indique aux agents IA **de quoi parle votre site**, quel contenu est disponible et comment les agents doivent l’utiliser. On peut le voir comme un `robots.txt` pour le contexte IA — pas du contrôle d’accès, mais de la **découverte de contenu**.

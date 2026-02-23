@@ -1,12 +1,15 @@
 ---
-title: "Markdown pour les agents"
-slug: "markdown-for-agents"
-type: "concept"
-description: "Servir du Markdown aux agents IA (via négociation de contenu ou URL dédiée) pour réduire les tokens et améliorer le parsing."
-category: "agent-facing"
-publishedAt: "2026-02-20"
-status: "published"
-relatedTerms: ["content-negotiation", "rag", "llm-indexing"]
+title: Markdown pour les agents
+slug: markdown-pour-les-agents
+type: concept
+description: Servir du Markdown aux agents IA (via négociation de contenu ou URL dédiée) pour réduire les tokens et améliorer le parsing.
+category: agent-facing
+publishedAt: '2026-02-20'
+status: published
+relatedTerms:
+  - content-negotiation
+  - rag
+  - llm-indexing
 ---
 
 ## Définition

@@ -1,12 +1,15 @@
 ---
-title: "Fil d'Ariane"
-slug: "breadcrumbs"
-type: "concept"
-description: "Piste de navigation montrant la position de la page dans la hiérarchie du site ; à implémenter avec Schema.org BreadcrumbList pour les agents."
-category: "agent-facing"
-publishedAt: "2026-02-20"
-status: "published"
-relatedTerms: ["schema-org", "json-ld", "internal-linking"]
+title: Fil d'Ariane
+slug: fil-dariane
+type: concept
+description: Piste de navigation montrant la position de la page dans la hiérarchie du site ; à implémenter avec Schema.org BreadcrumbList pour les agents.
+category: agent-facing
+publishedAt: '2026-02-20'
+status: published
+relatedTerms:
+  - schema-org
+  - json-ld
+  - internal-linking
 ---
 
 ## Définition

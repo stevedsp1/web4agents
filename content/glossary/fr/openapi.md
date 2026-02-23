@@ -1,13 +1,16 @@
 ---
-title: "OpenAPI"
-slug: "openapi"
-type: "standard"
-description: "Spécification pour décrire des API REST de façon machine-readable ; les agents IA peuvent découvrir et appeler vos API."
-category: "agent-facing"
-publishedAt: "2026-02-20"
-status: "published"
-website: "https://openapi.org"
-relatedTerms: ["mcp", "geo", "actionable-dom"]
+title: OpenAPI
+slug: openapi
+type: standard
+description: Spécification pour décrire des API REST de façon machine-readable ; les agents IA peuvent découvrir et appeler vos API.
+category: agent-facing
+publishedAt: '2026-02-20'
+status: published
+website: 'https://openapi.org'
+relatedTerms:
+  - mcp
+  - geo
+  - actionable-dom
 ---
 
 ## Définition

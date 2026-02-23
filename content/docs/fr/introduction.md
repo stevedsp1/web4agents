@@ -1,11 +1,11 @@
 ---
-title: "Introduction"
-slug: "introduction"
-description: "Qu'est-ce que le web prêt pour les agents, et pourquoi est-ce important pour votre site ?"
-category: "getting-started"
+title: Introduction
+slug: introduction
+description: 'Qu''est-ce que le web prêt pour les agents, et pourquoi est-ce important pour votre site ?'
+category: getting-started
 order: 2
-publishedAt: "2025-02-15"
-status: "published"
+publishedAt: '2025-02-15'
+status: published
 ---
 
 Le web évolue. Au-delà des visiteurs humains et des moteurs de recherche traditionnels, une nouvelle vague d’**agents IA autonomes** parcourt, lit et agit sur le contenu web. Ces agents — alimentés par les grands modèles de langage — peuvent remplir des formulaires, comparer des produits, résumer des pages et citer votre contenu dans leurs réponses.

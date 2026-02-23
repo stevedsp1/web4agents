@@ -1,14 +1,16 @@
 ---
-title: "LangChain"
-slug: "langchain"
-type: "tool"
-description: "Framework open source pour construire des applications basées sur des LLM et des chaînes d'outils (agents, RAG)."
-category: "agent-frameworks"
-publishedAt: "2025-02-01"
-updatedAt: "2025-02-15"
-status: "published"
-website: "https://langchain.com"
-relatedTerms: ["rag", "llm-indexing"]
+title: LangChain
+slug: langchain
+type: tool
+description: 'Framework open source pour construire des applications basées sur des LLM et des chaînes d''outils (agents, RAG).'
+category: agent-frameworks
+publishedAt: '2025-02-01'
+updatedAt: '2025-02-15'
+status: published
+website: 'https://langchain.com'
+relatedTerms:
+  - rag
+  - llm-indexing
 ---
 
 ## Aperçu

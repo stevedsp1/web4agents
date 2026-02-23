@@ -1,14 +1,14 @@
 ---
-title: "AutoGPT"
-slug: "autogpt"
-type: "tool"
-description: "Agent autonome open source qui peut parcourir le web et effectuer des tâches en plusieurs étapes."
-category: "agent-frameworks"
-publishedAt: "2025-02-01"
-updatedAt: "2025-02-15"
-status: "published"
-website: "https://autogpt.net"
-github: "https://github.com/Significant-Gravitas/AutoGPT"
+title: AutoGPT
+slug: autogpt
+type: tool
+description: Agent autonome open source qui peut parcourir le web et effectuer des tâches en plusieurs étapes.
+category: agent-frameworks
+publishedAt: '2025-02-01'
+updatedAt: '2025-02-15'
+status: published
+website: 'https://autogpt.net'
+github: 'https://github.com/Significant-Gravitas/AutoGPT'
 ---
 
 ## Aperçu

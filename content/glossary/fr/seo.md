@@ -1,13 +1,16 @@
 ---
-title: "SEO (Search Engine Optimization)"
-slug: "seo"
-type: "concept"
-description: "Ensemble des pratiques pour optimiser la visibilité d'un site dans les résultats des moteurs de recherche."
-category: "core-concepts"
-publishedAt: "2025-02-01"
-updatedAt: "2025-02-15"
-status: "published"
-relatedTerms: ["geo", "eeat", "backlink"]
+title: SEO (Search Engine Optimization)
+slug: seo-search-engine-optimization
+type: concept
+description: Ensemble des pratiques pour optimiser la visibilité d'un site dans les résultats des moteurs de recherche.
+category: core-concepts
+publishedAt: '2025-02-01'
+updatedAt: '2025-02-15'
+status: published
+relatedTerms:
+  - geo
+  - eeat
+  - backlink
 ---
 
 ## Définition

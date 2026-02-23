@@ -1,12 +1,15 @@
 ---
-title: "YMYL (Your Money Your Life)"
-slug: "ymyl"
-type: "concept"
-description: "Catégorie de contenu (finance, santé, etc.) pour laquelle Google applique des critères E-E-A-T plus stricts."
-category: "core-concepts"
-publishedAt: "2026-02-20"
-status: "published"
-relatedTerms: ["eeat", "seo", "geo"]
+title: YMYL (Your Money Your Life)
+slug: ymyl-your-money-your-life
+type: concept
+description: 'Catégorie de contenu (finance, santé, etc.) pour laquelle Google applique des critères E-E-A-T plus stricts.'
+category: core-concepts
+publishedAt: '2026-02-20'
+status: published
+relatedTerms:
+  - eeat
+  - seo
+  - geo
 ---
 
 ## Définition

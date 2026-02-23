@@ -1,13 +1,16 @@
 ---
-title: "Contenu lisible par les machines"
-slug: "machine-readable-content"
-type: "concept"
-description: "Contenu structuré ou formaté pour être parsé et compris par des programmes (données structurées, API, Markdown)."
-category: "core-concepts"
-publishedAt: "2025-02-01"
-updatedAt: "2025-02-15"
-status: "published"
-relatedTerms: ["schema-org", "json-ld", "agent-readable-web"]
+title: Contenu lisible par les machines
+slug: contenu-lisible-par-les-machines
+type: concept
+description: 'Contenu structuré ou formaté pour être parsé et compris par des programmes (données structurées, API, Markdown).'
+category: core-concepts
+publishedAt: '2025-02-01'
+updatedAt: '2025-02-15'
+status: published
+relatedTerms:
+  - schema-org
+  - json-ld
+  - agent-readable-web
 ---
 
 ## Définition

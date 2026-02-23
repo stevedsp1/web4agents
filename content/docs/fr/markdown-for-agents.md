@@ -1,12 +1,12 @@
 ---
-title: "Markdown pour les agents"
-slug: "markdown-for-agents"
-description: "Comment servir du Markdown directement aux agents IA plutôt que du HTML, pour réduire l'usage de tokens jusqu'à 80 % et améliorer la qualité du contenu."
-category: "agent-config"
+title: Markdown pour les agents
+slug: markdown-pour-les-agents
+description: 'Comment servir du Markdown directement aux agents IA plutôt que du HTML, pour réduire l''usage de tokens jusqu''à 80 % et améliorer la qualité du contenu.'
+category: agent-config
 order: 3
-publishedAt: "2026-02-12"
-updatedAt: "2026-02-23"
-status: "published"
+publishedAt: '2026-02-12'
+updatedAt: '2026-02-23'
+status: published
 ---
 
 ## Pourquoi le Markdown compte pour les agents

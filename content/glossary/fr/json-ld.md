@@ -1,14 +1,17 @@
 ---
-title: "JSON-LD"
-slug: "json-ld"
-type: "standard"
-description: "Format de données structurées (JavaScript Object Notation for Linked Data) recommandé pour Schema.org dans le HTML."
-category: "structured-data"
-publishedAt: "2025-02-01"
-updatedAt: "2025-02-15"
-status: "published"
-website: "https://json-ld.org"
-relatedTerms: ["schema-org", "geo", "machine-readable-content"]
+title: JSON-LD
+slug: json-ld
+type: standard
+description: Format de données structurées (JavaScript Object Notation for Linked Data) recommandé pour Schema.org dans le HTML.
+category: structured-data
+publishedAt: '2025-02-01'
+updatedAt: '2025-02-15'
+status: published
+website: 'https://json-ld.org'
+relatedTerms:
+  - schema-org
+  - geo
+  - machine-readable-content
 ---
 
 ## Définition

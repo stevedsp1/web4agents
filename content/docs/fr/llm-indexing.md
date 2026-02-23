@@ -1,11 +1,11 @@
 ---
-title: "Indexation par les LLM"
-slug: "llm-indexing"
-description: "Comment les grands modèles de langage indexent et utilisent le contenu web, et ce que cela implique pour votre site."
-category: "crawlers"
+title: Indexation par les LLM
+slug: indexation-par-les-llm
+description: 'Comment les grands modèles de langage indexent et utilisent le contenu web, et ce que cela implique pour votre site.'
+category: crawlers
 order: 3
-publishedAt: "2025-02-15"
-status: "published"
+publishedAt: '2025-02-15'
+status: published
 ---
 
 Comprendre comment les systèmes IA ingèrent et utilisent le contenu web vous aide à optimiser votre site pour avoir les meilleures chances d’être découvert, lu et cité par les agents IA.

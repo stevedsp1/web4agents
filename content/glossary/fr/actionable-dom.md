@@ -1,14 +1,16 @@
 ---
-title: "DOM actionnable"
-slug: "actionable-dom"
-type: "concept"
-description: "Structure HTML qui expose des actions claires (formulaires, liens, boutons) pour que les agents puissent accomplir des tâches."
-category: "core-concepts"
-publishedAt: "2025-02-01"
-updatedAt: "2025-02-15"
-status: "published"
-author: "Web4Agents"
-relatedTerms: ["geo", "agent-readable-web"]
+title: DOM actionnable
+slug: dom-actionnable
+type: concept
+description: 'Structure HTML qui expose des actions claires (formulaires, liens, boutons) pour que les agents puissent accomplir des tâches.'
+category: core-concepts
+publishedAt: '2025-02-01'
+updatedAt: '2025-02-15'
+status: published
+author: Web4Agents
+relatedTerms:
+  - geo
+  - agent-readable-web
 ---
 
 ## Définition

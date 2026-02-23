@@ -1,12 +1,12 @@
 ---
-title: "Qu'est-ce qu'un agent IA ?"
-slug: "what-are-ai-agents"
-description: "Introduction pratique aux agents IA : comment ils parcourent le web et pourquoi ils changent la façon dont le contenu doit être structuré."
-category: "getting-started"
+title: Qu'est-ce qu'un agent IA ?
+slug: quest-ce-quun-agent-ia
+description: 'Introduction pratique aux agents IA : comment ils parcourent le web et pourquoi ils changent la façon dont le contenu doit être structuré.'
+category: getting-started
 order: 0
-publishedAt: "2026-02-01"
-updatedAt: "2026-02-23"
-status: "published"
+publishedAt: '2026-02-01'
+updatedAt: '2026-02-23'
+status: published
 ---
 
 ## Définition

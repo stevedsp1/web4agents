@@ -1,13 +1,16 @@
 ---
-title: "LLM Indexing"
-slug: "llm-indexing"
-type: "concept"
-description: "Processus par lequel les grands modèles de langage ingèrent et utilisent le contenu web (entraînement ou récupération)."
-category: "core-concepts"
-publishedAt: "2025-02-01"
-updatedAt: "2025-02-15"
-status: "published"
-relatedTerms: ["geo", "rag", "citation"]
+title: LLM Indexing
+slug: llm-indexing
+type: concept
+description: Processus par lequel les grands modèles de langage ingèrent et utilisent le contenu web (entraînement ou récupération).
+category: core-concepts
+publishedAt: '2025-02-01'
+updatedAt: '2025-02-15'
+status: published
+relatedTerms:
+  - geo
+  - rag
+  - citation
 ---
 
 ## Définition

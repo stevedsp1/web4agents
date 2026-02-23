@@ -1,12 +1,12 @@
 ---
-title: "Fraîcheur du contenu"
-slug: "content-freshness"
-description: "Comment signaler la fraîcheur du contenu aux crawlers IA et aux moteurs, et pourquoi l'actualité compte pour les réponses générées par l'IA."
-category: "technical-seo"
+title: Fraîcheur du contenu
+slug: fraicheur-du-contenu
+description: 'Comment signaler la fraîcheur du contenu aux crawlers IA et aux moteurs, et pourquoi l''actualité compte pour les réponses générées par l''IA.'
+category: technical-seo
 order: 3
-publishedAt: "2026-02-01"
-updatedAt: "2026-02-23"
-status: "published"
+publishedAt: '2026-02-01'
+updatedAt: '2026-02-23'
+status: published
 ---
 
 ## Pourquoi la fraîcheur compte pour les agents IA

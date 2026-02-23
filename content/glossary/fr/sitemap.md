@@ -1,13 +1,16 @@
 ---
-title: "Sitemap"
-slug: "sitemap"
-type: "standard"
-description: "Fichier (souvent XML) listant les URL d'un site pour aider les crawlers à découvrir et prioriser les pages."
-category: "agent-facing"
-publishedAt: "2025-02-01"
-updatedAt: "2025-02-15"
-status: "published"
-relatedTerms: ["robots-txt", "llms-txt", "crawl-budget"]
+title: Sitemap
+slug: sitemap
+type: standard
+description: Fichier (souvent XML) listant les URL d'un site pour aider les crawlers à découvrir et prioriser les pages.
+category: agent-facing
+publishedAt: '2025-02-01'
+updatedAt: '2025-02-15'
+status: published
+relatedTerms:
+  - robots-txt
+  - llms-txt
+  - crawl-budget
 ---
 
 ## Définition

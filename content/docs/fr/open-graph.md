@@ -1,11 +1,11 @@
 ---
-title: "Open Graph et balises meta"
-slug: "open-graph"
-description: "Comment les balises Open Graph et meta aident les agents IA à comprendre vos pages."
-category: "structured-data"
+title: Open Graph et balises meta
+slug: open-graph-et-balises-meta
+description: Comment les balises Open Graph et meta aident les agents IA à comprendre vos pages.
+category: structured-data
 order: 3
-publishedAt: "2025-02-15"
-status: "published"
+publishedAt: '2025-02-15'
+status: published
 ---
 
 Les balises meta Open Graph (OG) ont été créées à l’origine par Facebook pour les aperçus de liens. Aujourd’hui, elles sont lues par les crawlers IA, les applications de chat, les messageries et les services d’aperçu de liens pour comprendre de quoi parle une page.

@@ -1,12 +1,14 @@
 ---
-title: "noindex"
-slug: "noindex"
-type: "standard"
-description: "Directive qui demande aux moteurs de ne pas indexer une page (meta ou X-Robots-Tag)."
-category: "agent-facing"
-publishedAt: "2026-02-20"
-status: "published"
-relatedTerms: ["robots-txt", "data-privacy"]
+title: noindex
+slug: noindex
+type: standard
+description: Directive qui demande aux moteurs de ne pas indexer une page (meta ou X-Robots-Tag).
+category: agent-facing
+publishedAt: '2026-02-20'
+status: published
+relatedTerms:
+  - robots-txt
+  - data-privacy
 ---
 
 ## Définition

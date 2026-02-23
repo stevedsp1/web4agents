@@ -1,14 +1,16 @@
 ---
-title: "llms.txt"
-slug: "llms-txt"
-type: "standard"
-description: "Convention pour un fichier texte décrivant un site pour les LLM et les agents."
-category: "agent-facing"
-publishedAt: "2025-02-01"
-updatedAt: "2025-02-15"
-status: "published"
-website: "https://llmstxt.org"
-relatedTerms: ["geo", "llm-indexing"]
+title: llms.txt
+slug: llmstxt
+type: standard
+description: Convention pour un fichier texte décrivant un site pour les LLM et les agents.
+category: agent-facing
+publishedAt: '2025-02-01'
+updatedAt: '2025-02-15'
+status: published
+website: 'https://llmstxt.org'
+relatedTerms:
+  - geo
+  - llm-indexing
 ---
 
 ## Définition

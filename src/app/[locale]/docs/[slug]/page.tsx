@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { getTranslations } from "next-intl/server";
-import { getDocEntries, getDocPage } from "@/lib/content-docs";
+import { getDocEntries, getDocPage, getDocSlugForLocale } from "@/lib/content-docs";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { TableOfContents } from "@/components/content/TableOfContents";
 import { JsonLd } from "@/components/seo/JsonLd";
@@ -32,12 +32,17 @@ export async function generateMetadata({ params }: Props) {
     return { title: t("notFoundTitle") };
   }
   const path = `/${locale}${getExternalPath("/docs", locale)}/${slug}`;
+  const pathByLocale: Record<string, string> = {};
+  for (const loc of routing.locales) {
+    const slugForLoc = await getDocSlugForLocale(page.id, loc);
+    pathByLocale[loc] = `/${loc}${getExternalPath("/docs", loc)}/${slugForLoc ?? page.slug}`;
+  }
   return buildMetadata({
     title: `${page.title} — Docs`,
     description: page.description ?? undefined,
     path,
     locales: routing.locales,
-    getPathForLocale: (loc) => `/${loc}${getExternalPath("/docs", loc)}/${slug}`,
+    getPathForLocale: (loc) => pathByLocale[loc] ?? path,
   });
 }
 

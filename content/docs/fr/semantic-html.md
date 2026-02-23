@@ -1,12 +1,12 @@
 ---
-title: "HTML sémantique"
-slug: "semantic-html"
-description: "Comment les éléments HTML sémantiques aident les agents IA à comprendre la structure de votre contenu."
-category: "content-markup"
+title: HTML sémantique
+slug: html-semantique
+description: Comment les éléments HTML sémantiques aident les agents IA à comprendre la structure de votre contenu.
+category: content-markup
 order: 4
-publishedAt: "2025-02-15"
-updatedAt: "2026-02-23"
-status: "published"
+publishedAt: '2025-02-15'
+updatedAt: '2026-02-23'
+status: published
 ---
 
 L'HTML sémantique consiste à utiliser le bon élément HTML pour la bonne fonction. Au lieu de tout construire avec `<div>` et `<span>`, on utilise des éléments qui portent un sens : cela aide les agents IA, les moteurs de recherche et les lecteurs d'écran à comprendre la structure du contenu sans deviner.

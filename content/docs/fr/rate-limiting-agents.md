@@ -1,11 +1,11 @@
 ---
-title: "Rate limiting des agents"
-slug: "rate-limiting-agents"
-description: "Protéger les ressources de votre serveur face à la croissance du trafic automatisé des agents IA."
-category: "security"
+title: Rate limiting des agents
+slug: rate-limiting-des-agents
+description: Protéger les ressources de votre serveur face à la croissance du trafic automatisé des agents IA.
+category: security
 order: 4
-publishedAt: "2026-02-22"
-status: "published"
+publishedAt: '2026-02-22'
+status: published
 ---
 
 ## Le coût du trafic IA

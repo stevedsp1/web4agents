@@ -1,14 +1,17 @@
 ---
-title: "Web lisible par les agents"
-slug: "agent-readable-web"
-type: "concept"
-description: "Vision d'un web où le contenu et la structure sont optimisés pour la consommation par les agents IA autonomes."
-category: "core-concepts"
-publishedAt: "2025-02-01"
-updatedAt: "2025-02-15"
-status: "published"
-author: "Web4Agents"
-relatedTerms: ["geo", "actionable-dom", "machine-readable-content"]
+title: Web lisible par les agents
+slug: web-lisible-par-les-agents
+type: concept
+description: Vision d'un web où le contenu et la structure sont optimisés pour la consommation par les agents IA autonomes.
+category: core-concepts
+publishedAt: '2025-02-01'
+updatedAt: '2025-02-15'
+status: published
+author: Web4Agents
+relatedTerms:
+  - geo
+  - actionable-dom
+  - machine-readable-content
 ---
 
 ## Définition

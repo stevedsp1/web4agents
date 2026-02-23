@@ -1,12 +1,15 @@
 ---
-title: "Code Mode"
-slug: "code-mode"
-type: "concept"
-description: "Approche MCP qui expose peu d'outils (ex. search + execute) et exécute du code côté serveur pour limiter l'usage de tokens."
-category: "agent-facing"
-publishedAt: "2026-02-23"
-status: "published"
-relatedTerms: ["mcp", "token", "openapi"]
+title: Code Mode
+slug: code-mode
+type: concept
+description: Approche MCP qui expose peu d'outils (ex. search + execute) et exécute du code côté serveur pour limiter l'usage de tokens.
+category: agent-facing
+publishedAt: '2026-02-23'
+status: published
+relatedTerms:
+  - mcp
+  - token
+  - openapi
 ---
 
 ## Définition

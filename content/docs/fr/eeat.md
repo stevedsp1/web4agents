@@ -1,12 +1,12 @@
 ---
-title: "E-E-A-T : signaux de confiance"
-slug: "eeat"
-description: "Comment le cadre E-E-A-T de Google (Expérience, Expertise, Autorité, Confiance) s'applique au SEO et à la GEO en 2026."
-category: "technical-seo"
+title: 'E-E-A-T : signaux de confiance'
+slug: e-e-a-t-signaux-de-confiance
+description: 'Comment le cadre E-E-A-T de Google (Expérience, Expertise, Autorité, Confiance) s''applique au SEO et à la GEO en 2026.'
+category: technical-seo
 order: 5
-publishedAt: "2026-02-20"
-updatedAt: "2026-02-23"
-status: "published"
+publishedAt: '2026-02-20'
+updatedAt: '2026-02-23'
+status: published
 ---
 
 ## Qu'est-ce que l'E-E-A-T ?

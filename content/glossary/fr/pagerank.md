@@ -1,12 +1,14 @@
 ---
-title: "PageRank"
-slug: "pagerank"
-type: "concept"
-description: "Algorithme historique de Google qui utilise les liens entre pages pour mesurer l'importance ; les backlinks en sont un héritage."
-category: "core-concepts"
-publishedAt: "2026-02-20"
-status: "published"
-relatedTerms: ["backlink", "seo"]
+title: PageRank
+slug: pagerank
+type: concept
+description: Algorithme historique de Google qui utilise les liens entre pages pour mesurer l'importance ; les backlinks en sont un héritage.
+category: core-concepts
+publishedAt: '2026-02-20'
+status: published
+relatedTerms:
+  - backlink
+  - seo
 ---
 
 ## Définition

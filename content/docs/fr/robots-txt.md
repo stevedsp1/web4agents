@@ -1,12 +1,12 @@
 ---
-title: "robots.txt"
-slug: "robots-txt"
-description: "Guide complet sur robots.txt : syntaxe, directives, règles par crawler IA et bonnes pratiques pour 2026."
-category: "crawlers"
+title: robots.txt
+slug: robotstxt
+description: 'Guide complet sur robots.txt : syntaxe, directives, règles par crawler IA et bonnes pratiques pour 2026.'
+category: crawlers
 order: 2
-publishedAt: "2025-02-15"
-updatedAt: "2026-02-20"
-status: "published"
+publishedAt: '2025-02-15'
+updatedAt: '2026-02-20'
+status: published
 ---
 
 Le fichier `robots.txt` est un fichier texte placé à la racine de votre domaine (`https://example.com/robots.txt`). Il indique aux crawlers web — moteurs de recherche traditionnels et agents IA — quelles pages ils peuvent accéder, avant qu’ils ne visitent une URL.

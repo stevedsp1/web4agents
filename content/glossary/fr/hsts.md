@@ -1,12 +1,13 @@
 ---
-title: "HSTS"
-slug: "hsts"
-type: "standard"
-description: "En-tête HTTP qui force l'utilisation de HTTPS par le navigateur pour les requêtes suivantes."
-category: "agent-facing"
-publishedAt: "2026-02-20"
-status: "published"
-relatedTerms: ["https-and-security"]
+title: HSTS
+slug: hsts
+type: standard
+description: En-tête HTTP qui force l'utilisation de HTTPS par le navigateur pour les requêtes suivantes.
+category: agent-facing
+publishedAt: '2026-02-20'
+status: published
+relatedTerms:
+  - https-and-security
 ---
 
 ## Définition

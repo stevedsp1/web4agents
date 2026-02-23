@@ -1,12 +1,12 @@
 ---
-title: "Performance et Core Web Vitals"
-slug: "performance"
-description: "Comment la performance des pages affecte le crawl et la récupération de contenu par les agents IA."
-category: "domain"
+title: Performance et Core Web Vitals
+slug: performance-et-core-web-vitals
+description: Comment la performance des pages affecte le crawl et la récupération de contenu par les agents IA.
+category: domain
 order: 2
-publishedAt: "2025-02-15"
-updatedAt: "2026-02-23"
-status: "published"
+publishedAt: '2025-02-15'
+updatedAt: '2026-02-23'
+status: published
 ---
 
 La performance des pages influence la façon dont les crawlers IA et les systèmes de récupération accèdent à votre contenu. Les pages lentes sont ignorées, coupées par timeout ou crawlées moins souvent.

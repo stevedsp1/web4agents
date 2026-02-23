@@ -1,11 +1,11 @@
 ---
-title: "GEO vs SEO"
-slug: "geo-vs-seo"
-description: "Différences et recouvrements entre le SEO traditionnel et la Generative Engine Optimization (GEO)."
-category: "getting-started"
+title: GEO vs SEO
+slug: geo-vs-seo
+description: Différences et recouvrements entre le SEO traditionnel et la Generative Engine Optimization (GEO).
+category: getting-started
 order: 1
-publishedAt: "2025-02-15"
-status: "published"
+publishedAt: '2025-02-15'
+status: published
 ---
 
 L’optimisation pour les moteurs de recherche (SEO) est le standard de la visibilité en ligne depuis 25 ans. La Generative Engine Optimization (GEO) est la pratique émergente qui consiste à rendre votre contenu accessible et utile aux agents IA et aux systèmes d’IA générative — un lecteur différent avec des besoins différents.

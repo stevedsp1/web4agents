@@ -1,12 +1,14 @@
 ---
-title: "IndexNow"
-slug: "indexnow"
-type: "standard"
-description: "Protocole qui permet de notifier les moteurs de recherche des changements de contenu (URL ajoutées ou modifiées)."
-category: "agent-facing"
-publishedAt: "2026-02-20"
-status: "published"
-relatedTerms: ["sitemap", "content-freshness"]
+title: IndexNow
+slug: indexnow
+type: standard
+description: Protocole qui permet de notifier les moteurs de recherche des changements de contenu (URL ajoutées ou modifiées).
+category: agent-facing
+publishedAt: '2026-02-20'
+status: published
+relatedTerms:
+  - sitemap
+  - content-freshness
 ---
 
 ## Définition

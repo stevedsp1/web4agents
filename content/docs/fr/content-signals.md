@@ -1,11 +1,11 @@
 ---
-title: "Content Signals"
-slug: "content-signals"
-description: "Le cadre Content Signals : comment déclarer vos préférences d'usage du contenu aux agents IA via les en-têtes HTTP et les balises meta HTML."
-category: "agent-config"
+title: Content Signals
+slug: content-signals
+description: 'Le cadre Content Signals : comment déclarer vos préférences d''usage du contenu aux agents IA via les en-têtes HTTP et les balises meta HTML.'
+category: agent-config
 order: 4
-publishedAt: "2026-02-01"
-status: "published"
+publishedAt: '2026-02-01'
+status: published
 ---
 
 ## Qu’est-ce que Content Signals ?

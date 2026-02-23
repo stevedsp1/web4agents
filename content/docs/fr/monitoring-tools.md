@@ -1,11 +1,11 @@
 ---
-title: "Outils de suivi SEO et GEO"
-slug: "monitoring-tools"
-description: "Vue d'ensemble des principaux outils pour suivre le SEO et la GEO de votre site : Google Search Console, Bing Webmaster Tools, GA4, Ahrefs, Semrush, Cloudflare Radar, etc."
-category: "analytics"
+title: Outils de suivi SEO et GEO
+slug: outils-de-suivi-seo-et-geo
+description: 'Vue d''ensemble des principaux outils pour suivre le SEO et la GEO de votre site : Google Search Console, Bing Webmaster Tools, GA4, Ahrefs, Semrush, Cloudflare Radar, etc.'
+category: analytics
 order: 3
-publishedAt: "2026-02-20"
-status: "published"
+publishedAt: '2026-02-20'
+status: published
 ---
 
 Suivre les performances de votre site en recherche traditionnelle et dans les systèmes pilotés par l’IA demande une combinaison d’outils officiels des moteurs, de plateformes d’analytics et de logiciels SEO tiers. Cette page présente les principaux outils et ce que chacun apporte au SEO et à la GEO.

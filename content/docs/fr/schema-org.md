@@ -1,11 +1,11 @@
 ---
-title: "Schema.org"
-slug: "schema-org"
-description: "Comment utiliser le vocabulaire Schema.org pour aider les agents IA à comprendre votre contenu."
-category: "structured-data"
+title: Schema.org
+slug: schemaorg
+description: Comment utiliser le vocabulaire Schema.org pour aider les agents IA à comprendre votre contenu.
+category: structured-data
 order: 1
-publishedAt: "2025-02-15"
-status: "published"
+publishedAt: '2025-02-15'
+status: published
 ---
 
 Schema.org est un vocabulaire partagé pour décrire le sens du contenu web. Il est utilisé par Google, Bing, les crawlers IA et d’autres consommateurs de données pour comprendre de quoi parlent vos pages — pas seulement le texte, mais la structure et la sémantique.

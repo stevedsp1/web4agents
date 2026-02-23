@@ -1,12 +1,12 @@
 ---
-title: "Backlinks et autorité des liens"
-slug: "backlinks"
-description: "Comment les backlinks fonctionnent pour le SEO traditionnel et les signaux d'autorité pour l'IA, et comment obtenir des liens de qualité en 2026."
-category: "technical-seo"
+title: Backlinks et autorité des liens
+slug: backlinks-et-autorite-des-liens
+description: 'Comment les backlinks fonctionnent pour le SEO traditionnel et les signaux d''autorité pour l''IA, et comment obtenir des liens de qualité en 2026.'
+category: technical-seo
 order: 4
-publishedAt: "2026-02-20"
-updatedAt: "2026-02-23"
-status: "published"
+publishedAt: '2026-02-20'
+updatedAt: '2026-02-23'
+status: published
 ---
 
 ## Qu'est-ce qu'un backlink ?

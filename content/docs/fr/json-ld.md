@@ -1,11 +1,11 @@
 ---
-title: "JSON-LD"
-slug: "json-ld"
-description: "Comment implémenter les données structurées JSON-LD dans votre HTML pour les agents IA et les moteurs de recherche."
-category: "structured-data"
+title: JSON-LD
+slug: json-ld
+description: Comment implémenter les données structurées JSON-LD dans votre HTML pour les agents IA et les moteurs de recherche.
+category: structured-data
 order: 2
-publishedAt: "2025-02-15"
-status: "published"
+publishedAt: '2025-02-15'
+status: published
 ---
 
 Le JSON-LD (JavaScript Object Notation for Linked Data) est le format recommandé pour ajouter des données structurées à vos pages web. Il intègre les données Schema.org dans une balise `<script>`, en les séparant du contenu visuel.

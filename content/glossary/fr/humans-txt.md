@@ -1,12 +1,14 @@
 ---
-title: "humans.txt"
-slug: "humans-txt"
-type: "standard"
-description: "Fichier texte optionnel à la racine du site décrivant l'équipe et les technologies, pour les humains."
-category: "agent-facing"
-publishedAt: "2026-02-20"
-status: "published"
-relatedTerms: ["llms-txt", "eeat"]
+title: humans.txt
+slug: humanstxt
+type: standard
+description: 'Fichier texte optionnel à la racine du site décrivant l''équipe et les technologies, pour les humains.'
+category: agent-facing
+publishedAt: '2026-02-20'
+status: published
+relatedTerms:
+  - llms-txt
+  - eeat
 ---
 
 ## Définition

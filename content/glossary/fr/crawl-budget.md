@@ -1,12 +1,14 @@
 ---
-title: "Crawl budget"
-slug: "crawl-budget"
-type: "concept"
-description: "Volume de pages qu'un crawler est prêt à explorer sur un site dans une période donnée."
-category: "agent-facing"
-publishedAt: "2026-02-20"
-status: "published"
-relatedTerms: ["robots-txt", "sitemap"]
+title: Crawl budget
+slug: crawl-budget
+type: concept
+description: Volume de pages qu'un crawler est prêt à explorer sur un site dans une période donnée.
+category: agent-facing
+publishedAt: '2026-02-20'
+status: published
+relatedTerms:
+  - robots-txt
+  - sitemap
 ---
 
 ## Définition

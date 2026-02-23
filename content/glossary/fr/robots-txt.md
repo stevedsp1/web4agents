@@ -1,14 +1,16 @@
 ---
-title: "robots.txt"
-slug: "robots-txt"
-type: "standard"
-description: "Fichier standard qui indique aux crawlers et aux agents quels chemins ils peuvent ou non accéder."
-category: "agent-facing"
-publishedAt: "2025-02-01"
-updatedAt: "2025-02-15"
-status: "published"
-website: "https://developers.google.com/search/docs/crawling-indexing/robots/robots_txt"
-relatedTerms: ["geo", "llm-indexing"]
+title: robots.txt
+slug: robotstxt
+type: standard
+description: Fichier standard qui indique aux crawlers et aux agents quels chemins ils peuvent ou non accéder.
+category: agent-facing
+publishedAt: '2025-02-01'
+updatedAt: '2025-02-15'
+status: published
+website: 'https://developers.google.com/search/docs/crawling-indexing/robots/robots_txt'
+relatedTerms:
+  - geo
+  - llm-indexing
 ---
 
 ## Définition

@@ -1,12 +1,15 @@
 ---
-title: "Token"
-slug: "token"
-type: "concept"
-description: "Unité de base traitée par un LLM (mot ou sous-mot) ; l'économie de tokens améliore coût et performance."
-category: "core-concepts"
-publishedAt: "2026-02-20"
-status: "published"
-relatedTerms: ["markdown-for-agents", "rag", "llm-indexing"]
+title: Token
+slug: token
+type: concept
+description: Unité de base traitée par un LLM (mot ou sous-mot) ; l'économie de tokens améliore coût et performance.
+category: core-concepts
+publishedAt: '2026-02-20'
+status: published
+relatedTerms:
+  - markdown-for-agents
+  - rag
+  - llm-indexing
 ---
 
 ## Définition

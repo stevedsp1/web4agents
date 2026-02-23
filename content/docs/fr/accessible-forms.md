@@ -1,12 +1,12 @@
 ---
-title: "Formulaires accessibles"
-slug: "accessible-forms"
-description: "Comment construire des formulaires que les agents IA et les outils automatisés peuvent comprendre et utiliser."
-category: "content-markup"
+title: Formulaires accessibles
+slug: formulaires-accessibles
+description: Comment construire des formulaires que les agents IA et les outils automatisés peuvent comprendre et utiliser.
+category: content-markup
 order: 5
-publishedAt: "2025-02-15"
-updatedAt: "2026-02-23"
-status: "published"
+publishedAt: '2025-02-15'
+updatedAt: '2026-02-23'
+status: published
 ---
 
 Les formulaires sont le principal moyen pour les utilisateurs — et les agents IA — d'agir sur votre site : envoyer une demande, s'inscrire, acheter, vous contacter. Un formulaire accessible et bien étiqueté est aussi un formulaire lisible par les machines.

@@ -1,12 +1,12 @@
 ---
-title: "OpenAI"
-slug: "openai"
-type: "actor"
-description: "Entreprise d'IA à l'origine de ChatGPT, des API GPT et des crawlers (GPTBot, OAI-SearchBot)."
-publishedAt: "2025-02-01"
-updatedAt: "2025-02-15"
-status: "published"
-website: "https://openai.com"
+title: OpenAI
+slug: openai
+type: actor
+description: 'Entreprise d''IA à l''origine de ChatGPT, des API GPT et des crawlers (GPTBot, OAI-SearchBot).'
+publishedAt: '2025-02-01'
+updatedAt: '2025-02-15'
+status: published
+website: 'https://openai.com'
 ---
 
 ## Aperçu

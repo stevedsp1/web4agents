@@ -1,12 +1,15 @@
 ---
-title: "Backlink"
-slug: "backlink"
-type: "concept"
-description: "Lien entrant d'un autre site vers le vôtre ; signal d'autorité central pour le SEO et les systèmes IA."
-category: "core-concepts"
-publishedAt: "2026-02-20"
-status: "published"
-relatedTerms: ["seo", "eeat", "internal-linking"]
+title: Backlink
+slug: backlink
+type: concept
+description: Lien entrant d'un autre site vers le vôtre ; signal d'autorité central pour le SEO et les systèmes IA.
+category: core-concepts
+publishedAt: '2026-02-20'
+status: published
+relatedTerms:
+  - seo
+  - eeat
+  - internal-linking
 ---
 
 ## Définition

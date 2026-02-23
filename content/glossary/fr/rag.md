@@ -1,12 +1,15 @@
 ---
-title: "RAG (Retrieval-Augmented Generation)"
-slug: "rag"
-type: "concept"
-description: "Technique qui récupère des passages pertinents dans un corpus puis les fournit au LLM pour générer une réponse."
-category: "core-concepts"
-publishedAt: "2026-02-20"
-status: "published"
-relatedTerms: ["chunking", "llm-indexing", "citation"]
+title: RAG (Retrieval-Augmented Generation)
+slug: rag-retrieval-augmented-generation
+type: concept
+description: Technique qui récupère des passages pertinents dans un corpus puis les fournit au LLM pour générer une réponse.
+category: core-concepts
+publishedAt: '2026-02-20'
+status: published
+relatedTerms:
+  - chunking
+  - llm-indexing
+  - citation
 ---
 
 ## Définition

@@ -1,11 +1,11 @@
 ---
-title: "Checklist de démarrage"
-slug: "checklist"
-description: "Une checklist pratique pour rendre votre site prêt pour les agents, étape par étape."
-category: "getting-started"
+title: Checklist de démarrage
+slug: checklist-de-demarrage
+description: 'Une checklist pratique pour rendre votre site prêt pour les agents, étape par étape.'
+category: getting-started
 order: 3
-publishedAt: "2025-02-15"
-status: "published"
+publishedAt: '2025-02-15'
+status: published
 ---
 
 Utilisez cette checklist comme point de départ. Chaque point renvoie à un guide dédié. Vous n’avez pas besoin de tout mettre en place d’un coup — commencez par les éléments à plus fort impact.

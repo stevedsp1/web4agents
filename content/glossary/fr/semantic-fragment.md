@@ -1,12 +1,15 @@
 ---
-title: "Fragment sémantique"
-slug: "semantic-fragment"
-type: "concept"
-description: "Segment de contenu qui porte une idée ou un fait cohérent, adapté au chunking et à la récupération RAG."
-category: "core-concepts"
-publishedAt: "2026-02-20"
-status: "published"
-relatedTerms: ["chunking", "semantic-density", "geo"]
+title: Fragment sémantique
+slug: fragment-semantique
+type: concept
+description: 'Segment de contenu qui porte une idée ou un fait cohérent, adapté au chunking et à la récupération RAG.'
+category: core-concepts
+publishedAt: '2026-02-20'
+status: published
+relatedTerms:
+  - chunking
+  - semantic-density
+  - geo
 ---
 
 ## Définition

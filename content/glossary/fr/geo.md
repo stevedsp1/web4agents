@@ -1,14 +1,17 @@
 ---
-title: "GEO (Generative Engine Optimization)"
-slug: "geo"
-type: "concept"
-description: "La GEO est l'ensemble des pratiques pour optimiser le contenu et la structure web pour les systèmes d'IA générative — agents, LLM et moteurs de recherche pilotés par l'IA."
-category: "core-concepts"
-publishedAt: "2025-01-15"
-updatedAt: "2026-02-20"
-status: "published"
-author: "Web4Agents"
-relatedTerms: ["semantic-fragment", "actionable-dom", "llm-indexing"]
+title: GEO (Generative Engine Optimization)
+slug: geo-generative-engine-optimization
+type: concept
+description: 'La GEO est l''ensemble des pratiques pour optimiser le contenu et la structure web pour les systèmes d''IA générative — agents, LLM et moteurs de recherche pilotés par l''IA.'
+category: core-concepts
+publishedAt: '2025-01-15'
+updatedAt: '2026-02-20'
+status: published
+author: Web4Agents
+relatedTerms:
+  - semantic-fragment
+  - actionable-dom
+  - llm-indexing
 ---
 
 ## Définition

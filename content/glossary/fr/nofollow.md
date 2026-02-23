@@ -1,12 +1,14 @@
 ---
-title: "nofollow"
-slug: "nofollow"
-type: "standard"
-description: "Attribut ou valeur meta qui indique aux crawlers de ne pas suivre un lien pour le transfert d'autorité."
-category: "agent-facing"
-publishedAt: "2026-02-20"
-status: "published"
-relatedTerms: ["seo", "robots-txt"]
+title: nofollow
+slug: nofollow
+type: standard
+description: Attribut ou valeur meta qui indique aux crawlers de ne pas suivre un lien pour le transfert d'autorité.
+category: agent-facing
+publishedAt: '2026-02-20'
+status: published
+relatedTerms:
+  - seo
+  - robots-txt
 ---
 
 ## Définition

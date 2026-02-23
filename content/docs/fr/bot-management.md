@@ -1,12 +1,12 @@
 ---
-title: "Gestion des bots et scraping"
-slug: "bot-management"
-description: "Comment distinguer les agents IA légitimes des scrapers abusifs et quelles stratégies pour protéger votre contenu."
-category: "security"
+title: Gestion des bots et scraping
+slug: gestion-des-bots-et-scraping
+description: Comment distinguer les agents IA légitimes des scrapers abusifs et quelles stratégies pour protéger votre contenu.
+category: security
 order: 1
-publishedAt: "2026-02-22"
-updatedAt: "2026-02-23"
-status: "published"
+publishedAt: '2026-02-22'
+updatedAt: '2026-02-23'
+status: published
 ---
 
 ## Le nouveau paysage des bots

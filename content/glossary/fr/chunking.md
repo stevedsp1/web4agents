@@ -1,12 +1,15 @@
 ---
-title: "Chunking"
-slug: "chunking"
-type: "concept"
-description: "Découpage du contenu en segments (chunks) pour l'indexation RAG ; la stratégie détermine la qualité de la récupération."
-category: "core-concepts"
-publishedAt: "2026-02-20"
-status: "published"
-relatedTerms: ["rag", "semantic-density", "rag-optimization"]
+title: Chunking
+slug: chunking
+type: concept
+description: Découpage du contenu en segments (chunks) pour l'indexation RAG ; la stratégie détermine la qualité de la récupération.
+category: core-concepts
+publishedAt: '2026-02-20'
+status: published
+relatedTerms:
+  - rag
+  - semantic-density
+  - rag-optimization
 ---
 
 ## Définition

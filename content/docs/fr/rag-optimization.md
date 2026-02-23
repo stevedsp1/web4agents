@@ -1,11 +1,11 @@
 ---
-title: "Optimisation RAG"
-slug: "rag-optimization"
-description: "Comment optimiser votre contenu pour les pipelines RAG (Retrieval-Augmented Generation) utilisés par les agents IA et les applications LLM."
-category: "content-markup"
+title: Optimisation RAG
+slug: optimisation-rag
+description: Comment optimiser votre contenu pour les pipelines RAG (Retrieval-Augmented Generation) utilisés par les agents IA et les applications LLM.
+category: content-markup
 order: 2
-publishedAt: "2026-02-01"
-status: "published"
+publishedAt: '2026-02-01'
+status: published
 ---
 
 ## Qu’est-ce que le RAG ?

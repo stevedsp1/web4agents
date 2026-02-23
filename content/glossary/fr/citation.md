@@ -1,12 +1,15 @@
 ---
-title: "Citation (citation IA)"
-slug: "citation"
-type: "concept"
-description: "Quand un système IA attribue ou lie votre contenu dans sa réponse ; l'équivalent IA d'une position dans les résultats de recherche."
-category: "core-concepts"
-publishedAt: "2026-02-20"
-status: "published"
-relatedTerms: ["geo", "monitoring-citations", "backlink"]
+title: Citation (citation IA)
+slug: citation-citation-ia
+type: concept
+description: Quand un système IA attribue ou lie votre contenu dans sa réponse ; l'équivalent IA d'une position dans les résultats de recherche.
+category: core-concepts
+publishedAt: '2026-02-20'
+status: published
+relatedTerms:
+  - geo
+  - monitoring-citations
+  - backlink
 ---
 
 ## Définition

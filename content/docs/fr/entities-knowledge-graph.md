@@ -1,11 +1,11 @@
 ---
-title: "Entités et Knowledge Graph"
-slug: "entities-knowledge-graph"
-description: "Comment être reconnu comme entité par Google et les systèmes IA, et pourquoi le Knowledge Graph est central pour la visibilité dans la recherche générative."
-category: "getting-started"
+title: Entités et Knowledge Graph
+slug: entites-et-knowledge-graph
+description: 'Comment être reconnu comme entité par Google et les systèmes IA, et pourquoi le Knowledge Graph est central pour la visibilité dans la recherche générative.'
+category: getting-started
 order: 5
-publishedAt: "2026-02-23"
-status: "published"
+publishedAt: '2026-02-23'
+status: published
 ---
 
 ## Qu'est-ce qu'une entité ?

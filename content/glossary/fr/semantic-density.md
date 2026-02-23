@@ -1,12 +1,15 @@
 ---
-title: "Densité sémantique"
-slug: "semantic-density"
-type: "concept"
-description: "Quantité d'information utile par unité de contenu (ex. par chunk) ; importante pour la qualité de récupération RAG."
-category: "core-concepts"
-publishedAt: "2026-02-20"
-status: "published"
-relatedTerms: ["chunking", "rag", "writing-for-agents"]
+title: Densité sémantique
+slug: densite-semantique
+type: concept
+description: Quantité d'information utile par unité de contenu (ex. par chunk) ; importante pour la qualité de récupération RAG.
+category: core-concepts
+publishedAt: '2026-02-20'
+status: published
+relatedTerms:
+  - chunking
+  - rag
+  - writing-for-agents
 ---
 
 ## Définition

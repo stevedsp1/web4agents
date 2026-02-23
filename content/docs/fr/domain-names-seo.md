@@ -1,11 +1,11 @@
 ---
-title: "Noms de domaine et SEO"
-slug: "domain-names-seo"
-description: "Comment choisir un nom de domaine qui favorise le SEO et la découvrabilité par l'IA : TLD, mots-clés, ancienneté, HTTPS et bonnes pratiques."
-category: "domain"
+title: Noms de domaine et SEO
+slug: noms-de-domaine-et-seo
+description: 'Comment choisir un nom de domaine qui favorise le SEO et la découvrabilité par l''IA : TLD, mots-clés, ancienneté, HTTPS et bonnes pratiques.'
+category: domain
 order: 4
-publishedAt: "2026-02-20"
-status: "published"
+publishedAt: '2026-02-20'
+status: published
 ---
 
 ## Pourquoi le nom de domaine compte pour le SEO et la GEO

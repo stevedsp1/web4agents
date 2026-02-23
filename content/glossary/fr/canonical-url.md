@@ -1,12 +1,15 @@
 ---
-title: "URL canonique"
-slug: "canonical-url"
-type: "concept"
-description: "L'URL préférée et faisant autorité pour une page lorsque plusieurs URL pointent vers le même contenu ou un contenu similaire."
-category: "core-concepts"
-publishedAt: "2026-02-20"
-status: "published"
-relatedTerms: ["seo", "technical-seo", "hreflang"]
+title: URL canonique
+slug: url-canonique
+type: concept
+description: L'URL préférée et faisant autorité pour une page lorsque plusieurs URL pointent vers le même contenu ou un contenu similaire.
+category: core-concepts
+publishedAt: '2026-02-20'
+status: published
+relatedTerms:
+  - seo
+  - technical-seo
+  - hreflang
 ---
 
 ## Définition

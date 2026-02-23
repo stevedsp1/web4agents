@@ -1,11 +1,11 @@
 ---
-title: "OpenAPI pour les agents"
-slug: "openapi-for-agents"
-description: "Comment concevoir et exposer une spécification OpenAPI que les agents IA peuvent découvrir, comprendre et utiliser de façon autonome."
-category: "protocols"
+title: OpenAPI pour les agents
+slug: openapi-pour-les-agents
+description: 'Comment concevoir et exposer une spécification OpenAPI que les agents IA peuvent découvrir, comprendre et utiliser de façon autonome.'
+category: protocols
 order: 2
-publishedAt: "2026-02-01"
-status: "published"
+publishedAt: '2026-02-01'
+status: published
 ---
 
 ## Pourquoi OpenAPI compte pour les agents IA

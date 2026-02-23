@@ -1,12 +1,15 @@
 ---
-title: "Base vectorielle"
-slug: "vector-database"
-type: "concept"
-description: "Base de données qui stocke des embeddings vectoriels pour la recherche par similarité ; utilisée dans les pipelines RAG."
-category: "core-concepts"
-publishedAt: "2026-02-20"
-status: "published"
-relatedTerms: ["rag", "chunking", "llm-indexing"]
+title: Base vectorielle
+slug: base-vectorielle
+type: concept
+description: Base de données qui stocke des embeddings vectoriels pour la recherche par similarité ; utilisée dans les pipelines RAG.
+category: core-concepts
+publishedAt: '2026-02-20'
+status: published
+relatedTerms:
+  - rag
+  - chunking
+  - llm-indexing
 ---
 
 ## Définition

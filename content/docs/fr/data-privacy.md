@@ -1,11 +1,11 @@
 ---
-title: "Données personnelles et ingestion par les LLM"
-slug: "data-privacy"
-description: "Comment éviter l'ingestion de données sensibles et rester conforme au RGPD face aux crawlers IA."
-category: "security"
+title: Données personnelles et ingestion par les LLM
+slug: donnees-personnelles-et-ingestion-par-les-llm
+description: Comment éviter l'ingestion de données sensibles et rester conforme au RGPD face aux crawlers IA.
+category: security
 order: 3
-publishedAt: "2026-02-22"
-status: "published"
+publishedAt: '2026-02-22'
+status: published
 ---
 
 ## Le défi de la confidentialité

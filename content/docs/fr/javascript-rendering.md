@@ -1,12 +1,12 @@
 ---
-title: "Rendu JavaScript et crawlers IA"
-slug: "javascript-rendering"
-description: "Comment les agents IA traitent le JavaScript (CSR vs SSR/SSG) et pourquoi le rendu serveur ou statique est vital pour la GEO."
-category: "technical-seo"
+title: Rendu JavaScript et crawlers IA
+slug: rendu-javascript-et-crawlers-ia
+description: Comment les agents IA traitent le JavaScript (CSR vs SSR/SSG) et pourquoi le rendu serveur ou statique est vital pour la GEO.
+category: technical-seo
 order: 6
-publishedAt: "2026-02-22"
-updatedAt: "2026-02-23"
-status: "published"
+publishedAt: '2026-02-22'
+updatedAt: '2026-02-23'
+status: published
 ---
 
 ## Le problème du rendu JavaScript
