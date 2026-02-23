@@ -52,7 +52,7 @@
   "cookieBanner": {
     "label": "Cookie choices",
     "message": "We use cookies for traffic analytics (Google Analytics).",
-    "privacy": "Learn more",
+    "privacy": "Privacy policy",
     "accept": "Accept",
     "decline": "Decline"
   },

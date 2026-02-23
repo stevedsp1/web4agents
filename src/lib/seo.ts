@@ -26,6 +26,9 @@ export function buildMetadata(params: BuildMetadataParams): Metadata {
   const languages = Object.fromEntries(
     params.locales.map((l) => [l, `${baseUrl}${pathForLocale(l)}`])
   );
+  // x-default points to the English (default) version
+  const enPath = pathForLocale("en");
+  languages["x-default"] = `${baseUrl}${enPath}`;
   return {
     title: params.title,
     description: params.description,
