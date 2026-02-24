@@ -9,21 +9,30 @@ export interface BreadcrumbItem {
 
 export interface BreadcrumbsProps {
   items: BreadcrumbItem[];
+  /** Full URLs for each breadcrumb (same order as items). Required for valid Schema.org BreadcrumbList; relative paths are invalid in "item". */
+  jsonLdUrls?: (string | undefined)[];
   className?: string;
 }
 
-export function Breadcrumbs({ items, className = "" }: BreadcrumbsProps) {
+function isAbsoluteUrl(url: string): boolean {
+  return url.startsWith("http://") || url.startsWith("https://");
+}
+
+export function Breadcrumbs({ items, jsonLdUrls, className = "" }: BreadcrumbsProps) {
   if (items.length === 0) return null;
 
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
-    itemListElement: items.map((item, i) => ({
-      "@type": "ListItem",
-      position: i + 1,
-      name: item.label,
-      ...(item.href && typeof item.href === "string" && { item: item.href }),
-    })),
+    itemListElement: items.map((item, i) => {
+      const url = jsonLdUrls?.[i];
+      return {
+        "@type": "ListItem",
+        position: i + 1,
+        name: item.label,
+        ...(url && isAbsoluteUrl(url) && { item: url }),
+      };
+    }),
   };
 
   return (

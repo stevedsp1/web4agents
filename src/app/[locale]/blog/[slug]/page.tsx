@@ -65,14 +65,19 @@ export default async function BlogSlugPage({ params }: Props) {
   const { post, headings } = result;
   const t = await getTranslations("blog");
   const navT = await getTranslations("nav");
+  const baseUrl = getBaseUrl();
+  const canonicalUrl = `${baseUrl}/${locale}/blog/${post.slug}`;
+
   const breadcrumbs = [
     { label: navT("home"), href: "/" },
     { label: navT("blog"), href: "/blog" },
     { label: post.title },
   ];
-
-  const baseUrl = getBaseUrl();
-  const canonicalUrl = `${baseUrl}/${locale}/blog/${post.slug}`;
+  const breadcrumbUrls = [
+    `${baseUrl}/${locale}`,
+    `${baseUrl}/${locale}/blog`,
+    canonicalUrl,
+  ];
   const ogImage = `${baseUrl}/api/og?title=${encodeURIComponent(post.title)}&type=article`;
   const articleLd = articleJsonLd({
     url: canonicalUrl,
@@ -96,7 +101,7 @@ export default async function BlogSlugPage({ params }: Props) {
   return (
     <div className="mx-auto max-w-6xl px-6 py-16 md:py-20">
       <JsonLd data={articleLd} />
-      <Breadcrumbs items={breadcrumbs} className="mb-8" />
+      <Breadcrumbs items={breadcrumbs} jsonLdUrls={breadcrumbUrls} className="mb-8" />
 
       <div className="lg:flex lg:gap-16">
         <article className="min-w-0 flex-1">

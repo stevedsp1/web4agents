@@ -69,11 +69,16 @@ export default async function DocSlugPage({ params }: Props) {
     { label: navT("docs"), href: "/docs" },
     { label: page.title },
   ];
+  const breadcrumbUrls = [
+    `${baseUrl}/${locale}`,
+    `${baseUrl}/${locale}${docsPath}`,
+    canonicalUrl,
+  ];
 
   return (
     <div>
       <JsonLd data={docJsonLd} />
-      <Breadcrumbs items={breadcrumbs} className="mb-6" />
+      <Breadcrumbs items={breadcrumbs} jsonLdUrls={breadcrumbUrls} className="mb-6" />
 
       <div className="lg:flex lg:gap-12">
         <article className="min-w-0 flex-1">

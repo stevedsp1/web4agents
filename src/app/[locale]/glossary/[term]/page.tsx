@@ -67,15 +67,20 @@ export default async function GlossaryTermPage({ params }: Props) {
 
   const t = await getTranslations("glossary");
   const navT = await getTranslations("nav");
+  const baseUrl = getBaseUrl();
+  const glossaryPath = getExternalPath("/glossary", locale);
+  const canonicalUrl = `${baseUrl}/${locale}${glossaryPath}/${entry.slug}`;
+
   const breadcrumbs = [
     { label: navT("home"), href: "/" },
     { label: t("title"), href: "/glossary" },
     { label: entry.title },
   ];
-
-  const baseUrl = getBaseUrl();
-  const glossaryPath = getExternalPath("/glossary", locale);
-  const canonicalUrl = `${baseUrl}/${locale}${glossaryPath}/${entry.slug}`;
+  const breadcrumbUrls = [
+    `${baseUrl}/${locale}`,
+    `${baseUrl}/${locale}${glossaryPath}`,
+    canonicalUrl,
+  ];
 
   const jsonLd =
     entry.type === "concept" || entry.type === "standard"
@@ -91,7 +96,7 @@ export default async function GlossaryTermPage({ params }: Props) {
   return (
     <div className="mx-auto max-w-3xl px-6 py-16 md:py-20">
       <JsonLd data={jsonLd} />
-      <Breadcrumbs items={breadcrumbs} className="mb-8" />
+      <Breadcrumbs items={breadcrumbs} jsonLdUrls={breadcrumbUrls} className="mb-8" />
       <article>
         <header>
           <Badge type={entry.type} className="mb-3">
